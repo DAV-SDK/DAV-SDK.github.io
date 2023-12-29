@@ -160,17 +160,10 @@ The following projects are included as part of the Data and Visualization SDK:
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-<<<<<<< HEAD
       <td class="verified" style="text-align: center"></td><!-- CPU -->
       <td class="failing" style="text-align: center" markdown="span">([🚫](#ascent_cuda_raja))</td><!-- CUDA -->
       <td class="in_progress" style="text-align: center" markdown="span">([🔎](#ascent_rocm))</td><!-- ROCm -->
       <td class="na" style="text-align: center" markdown="span">([N/A](#ascent_no_sycl))</td><!-- SYCL -->
-=======
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="failing" style="text-align: center" markdown="span">([🚫](#ascent_cuda_raja))</td><!-- CUDA -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#ascent_rocm))</td><!-- ROCm -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#ascent_no_sycl))</td><!-- SYCL -->
->>>>>>> 12d1cca589241dafb9325a0cf471c558b4d1ad25
     </tr>
     <tr>
       <td markdown="span">
@@ -1198,26 +1191,19 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 
 <span id="oneapi_sycl">**SYCL**</span> - SYCL extensions are implemented and tested using OneAPI.
 
-<span id="verified_on_sunspot">\*\* </span> Due to the similarity between the toolchains on Aurora and Sunspot,
-the results for the Aurora system are currently marked as verified as builds on Aurora progress. As issues are
-found on Aurora, these values will be updated to reflect the target system status.
+<span id="verified_on_sunspot">\*\* </span> Due to the similarity between the toolchains on Aurora and Sunspot, the results for the Aurora system are currently marked as verified as builds on Aurora progress. As issues are found on Aurora, these values will be updated to reflect the target system status.
 
 <span id="adios2_rocm">**ADIOS2**</span> - ROCm/HIP support is not expected in near term release.
 
 <span id="ascent_cuda_raja">**Ascent**</span> - Blocked by build errors in RAJA package.
 
-<span id="ascent_rocm">**Ascent**</span> - The spack recipe does not have support for ROCm.
-It is in under development in the Alpine Spack fork.
+<span id="ascent_rocm">**Ascent**</span> - The spack recipe does not have support for ROCm. It is in under development in the Alpine Spack fork.
 
-<span id="ascent_no_sycl">**Ascent**</span> - Ascent currently does not have any known plans for explicit
-SYCL support.
+<span id="ascent_no_sycl">**Ascent**</span> - Ascent currently does not have any known plans for explicit SYCL support.
 
-<span id="ascent_perlmutter_mpi">**Ascent**</span> - The way MPI is set up on Perlmutter
-conflicts with Ascent's spack recipe and CMake. Fixes for this are being
-developed.
+<span id="ascent_perlmutter_mpi">**Ascent**</span> - The way MPI is set up on Perlmutter conflicts with Ascent's spack recipe and CMake. Fixes for this are being developed.
 
-<span id="ascent_find_mpi_frontier">**Ascent**</span> - Using the CCE toolchain has issues locating
-MPI with CMake.
+<span id="ascent_find_mpi_frontier">**Ascent**</span> - Using the CCE toolchain has issues locating MPI with CMake.
 
 ### Cinema
 
