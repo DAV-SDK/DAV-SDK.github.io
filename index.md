@@ -108,7 +108,7 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="verified" style="text-align: center">✅</td><!-- CPU -->
       <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
-      <td class="na" style="text-align: center">N/A ([1](#adios2_rocm))</td><!-- ROCm -->
+      <td class="na" style="text-align: center" markdown="span">([1](#adios2_rocm))</td><!-- ROCm -->
       <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
     </tr>
     <tr>
@@ -1195,10 +1195,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 the results for the Aurora system are currently marked as verified as builds on Aurora progress. As issues are
 found on Aurora, these values will be updated to reflect the target system status.
 
-
-### ADIOS2
-
-<span id="adios2_rocm">1. </span>ROCm/HIP support is not expected in near term release.
+<span id="adios2_rocm">ADIOS2</span> ROCm/HIP support is not expected in near term release.
 
 ### Ascent
 
