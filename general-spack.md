@@ -77,9 +77,9 @@ layout: default
         [Ascent][Ascent]
       </td>
       <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="failing" style="text-align: center" markdown="span">([🚫](#ascent_cuda_raja))</td><!-- CUDA -->
+      <td class="failing" style="text-align: center" markdown="span">([🚫](#ascent_cuda))</td><!-- CUDA -->
       <td class="in_progress" style="text-align: center" markdown="span">([🔎](#ascent_rocm))</td><!-- ROCm -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#ascent_no_sycl))</td><!-- SYCL -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#ascent_sycl))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -97,7 +97,7 @@ layout: default
       <td class="verified" style="text-align: center">✅</td><!-- CPU -->
       <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
       <td class="verified" style="text-align: center">✅</td><!-- ROCm -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#paraview_oneapi_sycl))</td><!-- SYCL -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#paraview_sycl))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -113,9 +113,9 @@ layout: default
         [VisIt][VisIt]
       </td>
       <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="verified" style="text-align: center" markdown="span">([✅](#visit_vtkm_support))</td><!-- CUDA -->
-      <td class="verified" style="text-align: center" markdown="span">([✅](#visit_vtkm_support))</td><!-- ROCm -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#visit_vtkm_support))</td><!-- SYCL -->
+      <td class="verified" style="text-align: center" markdown="span">([✅](#visit_vtkm))</td><!-- CUDA -->
+      <td class="verified" style="text-align: center" markdown="span">([✅](#visit_vtkm))</td><!-- ROCm -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#visit_sycl))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -157,3 +157,31 @@ layout: default
 </table>
 
 [back](./)
+
+<span id="oneapi_sycl">**SYCL**</span> - [SYCL](https://www.khronos.org/sycl/) extensions are implemented and tested using [oneAPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/overview.html).
+
+<span id="adios2_rocm">**ADIOS2**</span> - ADIOS2 ROCm/HIP support is not expected in near term release.
+
+<span id="ascent_cuda">**Ascent**</span> - Ascent CUDA blocked by build errors in RAJA package.
+
+<span id="ascent_rocm">**Ascent**</span> - Ascent spack recipe does not have support for ROCm. It is in under development in the Alpine Spack fork.
+
+<span id="ascent_sycl">**Ascent**</span> - Ascent currently does not have any known plans for explicit SYCL support.
+
+<span id="paraview_sycl">**ParaView**</span> - ParaView using oneAPI does not support building SYCL kernels for VTK-m filters in released versions.
+
+<span id="sensei_ospray">**SENSEI**</span> - SENSEI is developing native OSPRay rendering support.
+
+<span id="sensei_kokkos">**SENSEI**</span> - SENSEI is developing CUDA, ROCm, and SYCL support using kokkos.
+
+<span id="visit_hdf5_conflict">**VisIt**</span> - VisIt utilizes a VTK version locked to a Python that is not compatible with the Python requirements of PyH5, the HDF5 python interface used by Cinema.
+
+<span id="visit_vtkm">**VisIt**</span> - VTK-m enabled GPU support for CUDA and ROCm is available VisIt, but is not officially tested as part of the DAV-SDK due to ([HDF5 conflict](#visit_hdf5_conflict)) only recently being resolved.
+
+<span id="visit_sycl">**ParaView**</span> - VisIt using oneAPI does not support building SYCL kernels for VTK-m filters in released versions.
+
+<span id="veloc_cuda">**VeloC**</span> - VeloC CUDA support for VeloC is under development.
+
+<span id="veloc_rocm">**VeloC**</span> - VeloC ROCm (Kokkos) support for VeloC is experimental in [kokkos-resilience](https://github.com/kokkos/kokkos-resilience)
+
+<span id="zfp_rocm">**ZFP**</span> - ZFP ROCm support is under development.
