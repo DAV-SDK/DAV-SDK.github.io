@@ -158,6 +158,8 @@ layout: default
 
 [back](./)
 
+## Notes
+
 <span id="oneapi_sycl">**SYCL**</span> - [SYCL](https://www.khronos.org/sycl/) extensions are implemented and tested using [oneAPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/overview.html).
 
 <span id="adios2_rocm">**ADIOS2**</span> - ADIOS2 ROCm/HIP support is not expected in near term release.
@@ -185,3 +187,5 @@ layout: default
 <span id="veloc_rocm">**VeloC**</span> - VeloC ROCm (Kokkos) support for VeloC is experimental in [kokkos-resilience](https://github.com/kokkos/kokkos-resilience)
 
 <span id="zfp_rocm">**ZFP**</span> - ZFP ROCm support is under development.
+
+[back](./)
