@@ -154,16 +154,16 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified" style="text-align: center">✅</td><!-- CPU -->
       <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_cuda))</td><!-- CUDA -->
       <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_rocm))</td><!-- ROCm -->
-      <td class="na" style="text-align: center"></td><!-- SYCL -->
+      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="verified"></td><!-- CPU -->
-      <td class="failing" markdown="span">([2](#ascent_cuda_raja))</td><!-- CUDA -->
-      <td class="in_progress" markdown="span">([3](#ascent_rocm))</td><!-- ROCm -->
-      <td class="na" markdown="span">([22](#ascent_no_sycl))</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="failing" style="text-align: center" markdown="span">([🚫](#ascent_cuda_raja))</td><!-- CUDA -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#ascent_rocm))</td><!-- ROCm -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#ascent_no_sycl))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -1197,22 +1197,20 @@ found on Aurora, these values will be updated to reflect the target system statu
 
 <span id="adios2_rocm">**ADIOS2**</span> - ROCm/HIP support is not expected in near term release.
 
-### Ascent
+<span id="ascent_cuda_raja">**Ascent**</span> - Blocked by build errors in RAJA package.
 
-<span id="ascent_cuda_raja">2. </span> Blocked by build errors in RAJA package.
-
-<span id="ascent_rocm">3. </span>The spack recipe does not have support for ROCm.
+<span id="ascent_rocm">**Ascent**</span> - The spack recipe does not have support for ROCm.
 It is in under development in the Alpine Spack fork.
 
-<span id="ascent_perlmutter_mpi">4. </span> The way MPI is set up on Perlmutter
+<span id="ascent_no_sycl">**Ascent**</span> - Ascent currently does not have any known plans for explicit
+SYCL support.
+
+<span id="ascent_perlmutter_mpi">**Ascent**</span> The way MPI is set up on Perlmutter
 conflicts with Ascent's spack recipe and CMake. Fixes for this are being
 developed.
 
-<span id="ascent_find_mpi_frontier">21. </span>Using the CCE toolchain has issues locating
+<span id="ascent_find_mpi_frontier">**Ascent**</span>Using the CCE toolchain has issues locating
 MPI with CMake.
-
-<span id="ascent_no_sycl">22. </span>Ascent currently does not have any known plans for explicit
-SYCL support.
 
 ### Cinema
 
@@ -1247,6 +1245,7 @@ filters in released versions.
 <span id="unifyfs_frontier">23, </span>UnifyFS has a link error when using the Cray wrappers for the Cray and AMD toolchains.
 
 <span id="veloc_cuda">**VeloC**</span> - CUDA support for VeloC is under development.
+
 <span id="veloc_rocm">**VeloC**</span> - Kokkos/ROCm support for VeloC is experimental in [kokkos-resilience](https://github.com/kokkos/kokkos-resilience)
 
 ### VisIt
