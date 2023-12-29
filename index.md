@@ -106,10 +106,10 @@ The following projects are included as part of the Data and Visualization SDK:
       <td markdown="span">
         [ADIOS2][ADIOS2]
       </td>
-      <td class="verified">✅</td><!-- CPU -->
-      <td class="verified"></td><!-- CUDA -->
-      <td class="na" markdown="span">([1](#adios2_rocm))</td><!-- ROCm -->
-      <td class="na"></td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
+      <td class="na" style="text-align: center" markdown="span">🚫([1](#adios2_rocm))</td><!-- ROCm -->
+      <td class="na" style="text-align: center" >🚫</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
