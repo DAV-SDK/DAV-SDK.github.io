@@ -98,7 +98,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <th style="text-align: center">CPU</th>
       <th style="text-align: center">CUDA</th>
       <th style="text-align: center">ROCm</th>
-      <th style="text-align: center" markdown="span">SYCL ([SYCL](#oneapi_sycl))</th>
+      <th style="text-align: center" markdown="span">([SYCL](#oneapi_sycl))</th>
     </tr>
   </thead>
   <tbody>
@@ -124,37 +124,37 @@ The following projects are included as part of the Data and Visualization SDK:
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="verified"></td><!-- CPU -->
-      <td class="verified"></td><!-- CUDA -->
-      <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
+      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
+      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
         [PNetCDF][PNetCDF]
       </td>
-      <td class="verified"></td><!-- CPU -->
-      <td class="na"></td><!-- CUDA -->
-      <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
+      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
+      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
         [UnifyFS][UnifyFS]
       </td>
-      <td class="verified"></td><!-- CPU -->
-      <td class="na"></td><!-- CUDA -->
-      <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
+      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
+      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
         [VeloC][VeloC]
       </td>
-      <td class="verified"></td><!-- CPU -->
-      <td class="na" markdown="span">([13](#veloc_cuda))</td><!-- CUDA -->
-      <td class="na" markdown="span">([14](#veloc_rocm))</td><!-- ROCm -->
-      <td class="na"></td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_cuda))</td><!-- CUDA -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_rocm))</td><!-- ROCm -->
+      <td class="na" style="text-align: center"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -1246,11 +1246,8 @@ filters in released versions.
 
 <span id="unifyfs_frontier">23, </span>UnifyFS has a link error when using the Cray wrappers for the Cray and AMD toolchains.
 
-### VeloC
-
-<span id="veloc_cuda">13. </span>CUDA support for VeloC is under development.
-
-<span id="veloc_rocm">14. </span>Kokkos/ROCm support for VeloC is experimental in [kokkos-resilience](https://github.com/kokkos/kokkos-resilience)
+<span id="veloc_cuda">**VeloC**</span> - CUDA support for VeloC is under development.
+<span id="veloc_rocm">**VeloC**</span> - Kokkos/ROCm support for VeloC is experimental in [kokkos-resilience](https://github.com/kokkos/kokkos-resilience)
 
 ### VisIt
 
