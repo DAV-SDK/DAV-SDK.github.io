@@ -108,17 +108,17 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="verified" style="text-align: center">✅</td><!-- CPU -->
       <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
-      <td class="na" style="text-align: center" markdown="span">🚫([1](#adios2_rocm))</td><!-- ROCm -->
-      <td class="na" style="text-align: center" >🚫</td><!-- SYCL -->
+      <td class="na" style="text-align: center">N/A ([1](#adios2_rocm))</td><!-- ROCm -->
+      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="verified"></td><!-- CPU -->
-      <td class="na"></td><!-- CUDA -->
-      <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
+      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
+      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
