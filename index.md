@@ -160,7 +160,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="verified" style="text-align: center"></td><!-- CPU -->
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
       <td class="failing" style="text-align: center" markdown="span">([🚫](#ascent_cuda_raja))</td><!-- CUDA -->
       <td class="in_progress" style="text-align: center" markdown="span">([🔎](#ascent_rocm))</td><!-- ROCm -->
       <td class="na" style="text-align: center" markdown="span">([N/A](#ascent_no_sycl))</td><!-- SYCL -->
@@ -169,85 +169,73 @@ The following projects are included as part of the Data and Visualization SDK:
       <td markdown="span">
         [Cinema][Cinema]
       </td>
-      <td class="verified"></td><!-- CPU -->
-      <td class="na"></td><!-- CUDA -->
-      <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
+      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
+      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
         [ParaView][ParaView]
       </td>
-      <td class="verified"></td><!-- CPU -->
-      <td class="verified"></td><!-- CUDA -->
-      <td class="verified"></td><!-- ROCm -->
-      <td class="na" markdown="span">([7](#paraview_oneapi_sycl))</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
+      <td class="verified" style="text-align: center">✅</td><!-- ROCm -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#paraview_oneapi_sycl))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="verified" markdown="span">([10](#sensei_ospray))</td><!-- CPU -->
-      <td class="na" markdown="span">([11](#sensei_kokkos))</td><!-- CUDA -->
-      <td class="na" markdown="span">([11](#sensei_kokkos))</td><!-- ROCm -->
-      <td class="na" markdown="span">([11](#sensei_kokkos))</td><!-- SYCL -->
+      <td class="verified" style="text-align: center" markdown="span">([✅](#sensei_ospray))</td><!-- CPU -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#sensei_kokkos))</td><!-- CUDA -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#sensei_kokkos))</td><!-- ROCm -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#sensei_kokkos))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="verified"></td><!-- CPU -->
-      <td class="verified" markdown="span">([16](#visit_vtkm_support))</td><!-- CUDA -->
-      <td class="verified" markdown="span">([16](#visit_vtkm_support))</td><!-- ROCm -->
-      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="verified" style="text-align: center" markdown="span">([✅](#visit_vtkm_support))</td><!-- CUDA -->
+      <td class="verified" style="text-align: center" markdown="span">([✅](#visit_vtkm_support))</td><!-- ROCm -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#visit_vtkm_support))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
         [VTK-m][VTK-m]
       </td>
-      <td class="verified"></td><!-- CPU -->
-      <td class="verified"></td><!-- CUDA -->
-      <td class="verified"></td><!-- ROCm -->
-      <td class="verified"></td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
+      <td class="verified" style="text-align: center">✅</td><!-- ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
         [SZ][SZ]
       </td>
-      <td class="verified"></td><!-- CPU -->
-      <td class="na"></td><!-- CUDA -->
-      <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
+      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
+      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
         [cuSZ][cuSZ]
       </td>
-      <td class="na"></td><!-- CPU -->
-      <td class="verified"></td><!-- CUDA -->
-      <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- SYCL -->
+      <td class="na" style="text-align: center">N/A</td><!-- CPU -->
+      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
+      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
+      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
         [ZFP][ZFP]
       </td>
-      <td class="verified"></td><!-- CPU -->
-      <td class="verified"></td><!-- CUDA -->
-      <td class="na" markdown="span">([20](#zfp_rocm))</td><!-- ROCm -->
-      <td class="na"></td><!-- SYCL -->
-    </tr>
-    <tr>
-      <td style="background-color: #373737; color: white">Legend</td>
-      <td colspan="4">
-        <table class="status_table_legend">
-          <tr>
-            <td class="verified" style="color: white">Available</td>
-            <td class="na" style="color: white">Not Available</td>
-            <td class="failing" style="color: white">Failing</td>
-          </tr>
-        </table>
-      </td>
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#zfp_rocm))</td><!-- ROCm -->
+      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
     </tr>
   </tbody>
 </table>
@@ -1205,60 +1193,36 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 
 <span id="ascent_find_mpi_frontier">**Ascent**</span> - Using the CCE toolchain has issues locating MPI with CMake.
 
-### Cinema
+<span id="cinema_oneapi_python">**Cinema**</span> - Failure to build a number of Python modules with OneAPI.
 
-<span id="cinema_oneapi_python">5. </span>Failure to build a number of Python modules with OneAPI.
+<span id="cinema_frontier_python">**Cinema**</span> - Failure to build working python modules for some of Cinemas dependency modules.
 
-<span id="cinema_frontier_python">25. </span>Failure to build working python modules for some of Cinemas dependency modules.
+<span id="darshan_runtime_hdf5">**Darshan**</span> - Darshan with HDF5 integration enabled does not support use cases that do not link HDF5 in the same runtime environment.
 
-### Darshan
+<span id="paraview_oneapi_sycl">**ParaView**</span> - ParaView and VisIt do not support building SYCL kernels for VTK-m filters in released versions.
 
-<span id="darshan_runtime_hdf5">24. </span>Darshan with HDF5 integration enabled does not support use cases that do not
-link HDF5 in the same runtime environment.
+<span id="paraview_no_ospray">**ParaView**</span> - OSPRay support has been disabled due to build errors.
 
-### ParaView
+<span id="paraview_oneapi_python">**ParaView**</span> - Failure to build a number of Python modules with OneAPI.
 
-<span id="paraview_oneapi_sycl">7. </span>ParaView and VisIt do not support building SYCL kernels for VTKm
-filters in released versions.
+<span id="sensei_ospray">**SENSEI**</span> - SENSEI is developing native OSPRay rendering support.
 
-<span id="paraview_no_ospray">8. </span>OSPRay support has been disabled due to build errors.
+<span id="sensei_kokkos">**SENSEI**</span> - SENSEI is developing Kokkos support for ROCm, CUDA, and SYCL interop.
 
-<span id="paraview_oneapi_python">9, </span>Failure to build a number of Python modules with OneAPI.
+<span id="sensei_catalyst_backend">**SENSEI**</span> - SENSEI is developing updates to support ParaView v5.11 and Catalyst 2.
 
-### SENSEI
-
-<span id="sensei_ospray">10, </span>SENSEI is developing native OSPRay rendering support.
-
-<span id="sensei_kokkos">11. </span>SENSEI is developing Kokkos support for ROCm, CUDA, and SYCL interop.
-
-<span id="sensei_catalyst_backend">12. </span>SENSEI is developing updates to support ParaView v5.11 and Catalyst 2.
-
-### UnifyFS
-
-<span id="unifyfs_frontier">23, </span>UnifyFS has a link error when using the Cray wrappers for the Cray and AMD toolchains.
+<span id="unifyfs_frontier">**UnifyFS**</span> - UnifyFS has a link error when using the Cray wrappers for the Cray and AMD toolchains.
 
 <span id="veloc_cuda">**VeloC**</span> - CUDA support for VeloC is under development.
 
 <span id="veloc_rocm">**VeloC**</span> - Kokkos/ROCm support for VeloC is experimental in [kokkos-resilience](https://github.com/kokkos/kokkos-resilience)
 
-### VisIt
+<span id="visit_hdf5_conflict">**VisIt**</span> - VisIt utilizes a VTK version locked to a Python that is not compatible with the Python requirements of PyH5, the HDF5 python interface used by Cinema.
 
-<span id="visit_hdf5_conflict">15. </span>VisIt utilizes a VTK version locked to a Python that
-is not compatible with the Python requirements of PyH5, the HDF5 python interface used by Cinema.
+<span id="visit_vtkm_support">**VisIt**</span> - VTK-m enabled GPU support is available VisIt, but is not officially tested as part of the Data and Vis SDK due to ([15](#visit_hdf5_conflict)) only recently being resolved.
 
-<span id="visit_vtkm_support">16. </span>VTK-m enabled GPU support is available VisIt, but
-is not officially tested as part of the Data and Vis SDK due to ([15](#visit_hdf5_conflict)) only
-recently being resolved.
+<span id="vtkm_rocm_openmp">**VTK-m**</span> - Spack ROCm does not provide OpenMP correclty for VTKm HIP modules.
 
-### VTK-m
+<span id="vtkm_cray_wrapper_workaround">**VTK-m**</span> - Frontier requires additional workarounds in the Spack recipe for VTKm that are specific to the Cray wrappers on Frontier. [patch](https://github.com/spack/spack/pull/34427)
 
-<span id="vtkm_rocm_openmp">18. </span>Spack ROCm does not provide OpenMP correclty for VTKm HIP
-modules.
-
-<span id="vtkm_cray_wrapper_workaround">19. </span>Frontier requires additional workarounds in the Spack
-recipe for VTKm that are specific to the Cray wrappers on Frontier.
-[patch](https://github.com/spack/spack/pull/34427)
-
-### ZFP
-
-<span id="zfp_rocm">20. </span>ROCm support is under development.
+<span id="zfp_rocm">**ZFP**</span> - ROCm support is under development.
