@@ -95,10 +95,10 @@ The following projects are included as part of the Data and Visualization SDK:
   <thead>
     <tr>
       <th>Project</th>
-      <th>CPU</th>
-      <th>CUDA</th>
-      <th>ROCm</th>
-      <th markdown="span">SYCL ([*](#oneapi_sycl))</th>
+      <th style="text-align: center">CPU</th>
+      <th style="text-align: center">CUDA</th>
+      <th style="text-align: center">ROCm</th>
+      <th style="text-align: center" markdown="span">SYCL ([SYCL](#oneapi_sycl))</th>
     </tr>
   </thead>
   <tbody>
@@ -1189,13 +1189,13 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 <!-- NOTE: we want to group the notes and link to them from the table, so we
      will be creating anchor "span"s with id attributes to href to above. -->
 
-<span id="oneapi_sycl">\* </span>SYCL extensions are implemented and tested using OneAPI.
+<span id="oneapi_sycl">**SYCL**</span> - SYCL extensions are implemented and tested using OneAPI.
 
 <span id="verified_on_sunspot">\*\* </span> Due to the similarity between the toolchains on Aurora and Sunspot,
 the results for the Aurora system are currently marked as verified as builds on Aurora progress. As issues are
 found on Aurora, these values will be updated to reflect the target system status.
 
-<span id="adios2_rocm">**ADIOS2**</span> ROCm/HIP support is not expected in near term release.
+<span id="adios2_rocm">**ADIOS2**</span> - ROCm/HIP support is not expected in near term release.
 
 ### Ascent
 
