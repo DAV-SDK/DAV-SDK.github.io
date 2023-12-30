@@ -25,49 +25,10 @@ The following projects are included as part of the DAV SDK:
 
 <span style="border-width:3px; border-style:solid; border-color:#d73027; padding: 0.5em;">[General Spack](./general-spack.html)</span>&emsp;
 <span style="border-width:3px; border-style:solid; border-color:#fc8d59; padding: 0.5em;">[DAV SDK](./dav-sdk.html)</span>&emsp;
-<span style="border-width:3px; border-style:solid; border-color:#fee090; padding: 0.5em;">[E4S](./e4s.html)</span>
+<span style="border-width:3px; border-style:solid; border-color:#fee090; padding: 0.5em;">[E4S](./e4s.html)</span>&emsp;
+<span style="border-width:3px; border-style:solid; border-color:#fee090; padding: 0.5em;">[Frontier](./frontier.html)</span>
 
 ### Frontier
-
-One of the primary challenges on Frontier is handling the compiler wrappers
-for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
-
-<table class="toolchain_table">
-  <thead>
-    <tr>
-      <th>Info</th>
-      <th>GCC Toolchain</th>
-      <th>CCE Toolchain</th>
-      <th>AMD Toolchain</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        Version
-      </td>  <!-- Info -->
-      <td>v11.2</td>  <!-- GCC Toolchain -->
-      <td>v15.0.0</td>  <!-- CCE Toolchain -->
-      <td>v5.3.0</td>  <!-- AMD Toolchain -->
-    </tr>
-    <tr>
-      <td>
-        Cray MPICH
-      </td>  <!-- Info -->
-      <td>v8.1.23</td>  <!-- GCC Toolchain -->
-      <td>v8.1.23</td>  <!-- CCE Toolchain -->
-      <td>v8.1.23</td>  <!-- AMD Toolchain -->
-    </tr>
-    <tr>
-      <td>
-        ROCm
-      </td>  <!-- Info -->
-      <td>v5.3.0</td>  <!-- GCC Toolchain -->
-      <td>v5.3.0</td>  <!-- CCE Toolchain -->
-      <td>v5.3.0</td>  <!-- AMD Toolchain -->
-    </tr>
-  </tbody>
-</table>
 
 <table class="status_table">
   <thead>
