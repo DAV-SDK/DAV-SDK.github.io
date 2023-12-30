@@ -51,7 +51,7 @@ This table is an overview of the status of the different CPU-only deployments of
       <td class="verified" style="text-align: center">✅</td><!-- Docker -->
       <td class="verified" style="text-align: center">✅</td><!-- Frontier -->
       <td class="verified" style="text-align: center">✅</td><!-- Perlmutter -->
-      <td class="in_progress" style="text-align: center"  markdown="span">([🔎]((#hdf5_vols_oneapi))</td><!-- Aurora -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#hdf5_vols_oneapi))</td><!-- Aurora -->
       <td class="in_progress" style="text-align: center">🔎</td><!-- Smoke -->
     </tr>
     <tr>
@@ -93,8 +93,8 @@ This table is an overview of the status of the different CPU-only deployments of
       </td>
       <td class="verified" style="text-align: center">✅</td><!-- Desktop -->
       <td class="verified" style="text-align: center">✅</td><!-- Docker -->
-      <td class="in_progress" style="text-align: center">([🔎](#ascent_find_mpi_frontier))</td><!-- Frontier -->
-      <td class="failing" style="text-align: center">([🚫](#ascent_perlmutter_mpi))</td><!-- Perlmutter -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#ascent_find_mpi_frontier))</td><!-- Frontier -->
+      <td class="failing" style="text-align: center" markdown="span">([🚫](#ascent_perlmutter_mpi))</td><!-- Perlmutter -->
       <td class="verified" style="text-align: center">✅</td><!-- Aurora -->
       <td class="in_progress" style="text-align: center">🔎</td><!-- Smoke -->
     </tr>
@@ -106,7 +106,7 @@ This table is an overview of the status of the different CPU-only deployments of
       <td class="verified" style="text-align: center">✅</td><!-- Docker -->
       <td class="verified" style="text-align: center">✅</td><!-- Frontier -->
       <td class="verified" style="text-align: center">✅</td><!-- Perlmutter -->
-      <td class="in_progress" style="text-align: center">([🔎](#cinema_oneapi_python))</td><!-- Aurora -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#cinema_oneapi_python))</td><!-- Aurora -->
       <td class="in_progress" style="text-align: center">🔎</td><!-- Smoke -->
     </tr>
     <tr>
@@ -117,18 +117,18 @@ This table is an overview of the status of the different CPU-only deployments of
       <td class="verified" style="text-align: center">✅</td><!-- Docker -->
       <td class="verified" style="text-align: center">✅</td><!-- Frontier -->
       <td class="verified" style="text-align: center">✅</td><!-- Perlmutter -->
-      <td class="in_progress" style="text-align: center">(([🔎](#paraview_no_ospray)[🔎](#paraview_oneapi_python))</td><!-- Aurora -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#paraview_no_ospray)[🔎](#paraview_oneapi_python))</td><!-- Aurora -->
       <td class="verified" style="text-align: center">✅</td><!-- Smoke -->
     </tr>
     <tr>
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="in_progress" style="text-align: center">([🔎](#sensei_catalyst))</td><!-- Desktop -->
-      <td class="in_progress" style="text-align: center">([🔎](#sensei_catalyst))</td><!-- Docker -->
-      <td class="in_progress" style="text-align: center">([🔎](#sensei_catalyst))</td><!-- Frontier -->
-      <td class="in_progress" style="text-align: center">([🔎](#sensei_catalyst))</td><!-- Perlmutter -->
-      <td class="in_progress" style="text-align: center">([🔎](#sensei_catalyst))</td><!-- Aurora -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- Desktop -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- Docker -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- Frontier -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- Perlmutter -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- Aurora -->
       <td class="in_progress" style="text-align: center">🔎</td><!-- Smoke -->
     </tr>
     <tr>
