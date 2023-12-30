@@ -17,7 +17,7 @@ The data, analysis, and visualization (DAV) software development kit (SDK), or D
 
 The following projects are included as part of the DAV SDK:
 
-<p style="border-width:3px; border-style:solid; border-color:#92c5de; padding: 0.5em;">[I/O and Data Management](./io-dm.html)</p>
+<span style="border-width:3px; border-style:solid; border-color:#92c5de; padding: 0.5em;">[I/O and Data Management](./io-dm.html)</span>
 
 ### Visualization and Analysis
 
