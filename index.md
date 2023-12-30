@@ -17,23 +17,13 @@ The data, analysis, and visualization (DAV) software development kit (SDK), or D
 
 The following projects are included as part of the DAV SDK:
 
-<span style="border-width:3px; border-style:solid; border-color:#92c5de; padding: 0.5em;">[I/O and Data Management](./io-dm.html)</span>
+<span style="border-width:3px; border-style:solid; border-color:#92c5de; padding: 0.5em;">[I/O](./io.html)</span>
 
-<span style="border-width:3px; border-style:solid; border-color:#92c5de; padding: 0.5em;">[Analysis and Visualization](./a-v.html)</span>
+<span style="border-width:3px; border-style:solid; border-color:#92c5de; padding: 0.5em;">[Compression](./compression.html)</span>
 
-### Compression
+<span style="border-width:3px; border-style:solid; border-color:#92c5de; padding: 0.5em;">[Analysis and Visualization](./analysis-visualization.html)</span>
 
-* [SZ][SZ]: An error-bounded lossy data compressor for floating-point and
-  integer datasets.
-* [cuSZ][cuSZ]: A CUDA based implementation of the [SZ][SZ] lossy compressor.
-* [ZFP][ZFP]: An open-source library for compressed floating-point arrays that
-  support high throughput read and write random access.
-
-[SZ]: https://szcompressor.org
-[cuSZ]: https://github.com/szcompressor/cuSZ
-[ZFP]: https://computing.llnl.gov/projects/zfp
-
-# Integration Status
+## Integration Status
 
 <span style="border-width:3px; border-style:solid; border-color:#2166ac; padding: 0.5em;">[General Spack](./general-spack.html)</span>&emsp;
 <span style="border-width:3px; border-style:solid; border-color:#2166ac; padding: 0.5em;">[DAV SDK](./dav-sdk.html)</span>&emsp;
@@ -673,3 +663,6 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 [SENSEI]: https://sensei-insitu.org/
 [VisIt]: https://visit-dav.github.io/visit-website/
 [VTK-m]: https://m.vtk.org
+[SZ]: https://szcompressor.org
+[cuSZ]: https://github.com/szcompressor/cuSZ
+[ZFP]: https://computing.llnl.gov/projects/zfp
