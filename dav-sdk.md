@@ -155,7 +155,7 @@ layout: default
   </tbody>
 </table>
 
-<p style="text-align:center">✅ <b>Verified</b> 🔎 <b>In Progress</b> 🚫 <b>Broken</b> N/A <b>Not Applicable</b></p>
+<p style="text-align:center">✅ <b>Verified</b>&emsp;🔎 <b>In Progress</b>&emsp;🚫 <b>Broken</b>&emsp;N/A <b>Not Applicable</b></p>
 
 [back](./)
 
