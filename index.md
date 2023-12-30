@@ -19,27 +19,7 @@ The following projects are included as part of the DAV SDK:
 
 <span style="border-width:3px; border-style:solid; border-color:#92c5de; padding: 0.5em;">[I/O and Data Management](./io-dm.html)</span>
 
-### Visualization and Analysis
-
-* [Ascent][Ascent]: An open source many-core capable lightweight in situ
-  visualization and analysis infrastructure for multi-physics HPC simulations.
-* [Cinema][Cinema]: An image-based approach to extreme scale in situ
-  visualization and analysis.
-* [ParaView][ParaView]: An open-source, multi-platform data analysis and
-  visualization application.
-* [SENSEI][SENSEI]: An interface for scalable in situ analysis and visualization
-  of simulation data.
-* [VisIt][VisIt]: An open source, interactive, scalable, visualization,
-  animation and analysis tool.
-* [VTK-m][VTK-m]: A toolkit if scientific visualization algorithms for emerging
-  processor architectures.
-
-[Ascent]: https://github.com/Alpine-DAV/ascent
-[Cinema]: https://cinemascience.github.io
-[ParaView]: https://paraview.org
-[SENSEI]: https://sensei-insitu.org/
-[VisIt]: https://visit-dav.github.io/visit-website/
-[VTK-m]: https://m.vtk.org
+<span style="border-width:3px; border-style:solid; border-color:#92c5de; padding: 0.5em;">[Analysis and Visualization](./a-v.html)</span>
 
 ### Compression
 
@@ -687,3 +667,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 [PNetCDF]: https://parallel-netcdf.github.io/
 [UnifyFS]: https://unifyfs.readthedocs.io/en/latest/
 [VeloC]: https://veloc.readthedocs.io/en/latest/
+[Ascent]: https://github.com/Alpine-DAV/ascent
+[Cinema]: https://cinemascience.github.io
+[ParaView]: https://paraview.org
+[SENSEI]: https://sensei-insitu.org/
+[VisIt]: https://visit-dav.github.io/visit-website/
+[VTK-m]: https://m.vtk.org
