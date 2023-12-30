@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## General Spack Support
+## DAV SDK Support
 
 [back](./)
 
@@ -102,10 +102,10 @@ layout: default
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="verified" style="text-align: center" markdown="span">([✅](#sensei_ospray))</td><!-- CPU -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#sensei_kokkos))</td><!-- CUDA -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#sensei_kokkos))</td><!-- ROCm -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#sensei_kokkos))</td><!-- SYCL -->
+      <td class="verified" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- CPU -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#sensei_kokkos)[🔎](#sensei_catalyst))</td><!-- CUDA -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#sensei_kokkos)[🔎](#sensei_catalyst))</td><!-- ROCm -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#sensei_kokkos)[🔎](#sensei_catalyst))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -123,7 +123,7 @@ layout: default
       <td class="verified" style="text-align: center">✅</td><!-- CPU -->
       <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
       <td class="verified" style="text-align: center">✅</td><!-- ROCm -->
-      <td class="verified" style="text-align: center">✅</td><!-- SYCL -->
+      <td class="in_progress" style="text-align: center">🔎</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -139,7 +139,7 @@ layout: default
         [cuSZ][cuSZ]
       </td>
       <td class="na" style="text-align: center">N/A</td><!-- CPU -->
-      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
+      <td class="in_progress" style="text-align: center">✅</td><!-- CUDA -->
       <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
       <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
     </tr>
@@ -176,6 +176,8 @@ layout: default
 <span id="sensei_ospray">**SENSEI**</span> - SENSEI is developing native OSPRay rendering support.
 
 <span id="sensei_kokkos">**SENSEI**</span> - SENSEI is developing CUDA, ROCm, and SYCL support using kokkos.
+
+<span id="sensei_catalyst">**SENSEI**</span> - SENSEI is developing updates to support ParaView v5.11 and Catalyst 2.
 
 <span id="visit_hdf5_conflict">**VisIt**</span> - VisIt utilizes a VTK version locked to a Python that is not compatible with the Python requirements of PyH5, the HDF5 python interface used by Cinema.
 
