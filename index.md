@@ -92,8 +92,8 @@ The following projects are included as part of the Data and Visualization SDK:
 
 # Integration Status
 
-<span style="border-width:3px; border-style:solid; border-color:#FF0000; padding: 1em;">[General Spack](./general-spack.html)</span>&emsp;
-<span style="border-width:3px; border-style:solid; border-color:#FF0000; padding: 1em;">[DAV SDK](./dav-sdk.html)</span>
+<span style="border-width:3px; border-style:solid; border-color:#2166ac; padding: 0.5em;">[General Spack](./general-spack.html)</span>&emsp;
+<span style="border-width:3px; border-style:solid; border-color:#2166ac; padding: 1em;">[DAV SDK](./dav-sdk.html)</span>
    
 
 ## Extreme-scale Scientific Software Stack (E4S)
