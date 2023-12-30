@@ -4,7 +4,7 @@ layout: default
 
 ## Extreme-scale Scientific Software Stack (E4S) Support
 
-This table is an overview of the status of the different CPU-only deployments of the DAV SDK via E4S. Some items may be marked as "In Progress" but have fully completed some tasks on those systems.
+This table is an overview of the status of the different CPU-only deployments of the DAV SDK via E4S. Some items may be marked as "🔎" but may have fully completed some tasks on those systems.
 
 [back](./)
 
