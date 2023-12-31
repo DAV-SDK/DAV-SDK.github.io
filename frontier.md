@@ -14,7 +14,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 <table class="toolchain_table">
   <thead>
     <tr>
-      <th style="text-align: center">Info</th>
+      <th>Info</th>
       <th style="text-align: center">GCC</th>
       <th style="text-align: center">CCE</th>
       <th style="text-align: center">AMD</th>
@@ -52,10 +52,12 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
   <thead>
     <tr>
       <th>Project</th>
-      <th style="text-align: center">CPU</th>
-      <th style="text-align: center">CUDA</th>
-      <th style="text-align: center">ROCm</th>
-      <th style="text-align: center" markdown="span">([SYCL](#oneapi_sycl))</th>
+      <th style="text-align: center">GCC</th>
+      <th style="text-align: center">GCC + ROCm</th>
+      <th style="text-align: center">CCE</th>
+      <th style="text-align: center">CCE + ROCm</th>
+      <th style="text-align: center">AMD</th>
+      <th style="text-align: center">AMD + ROCm</th>
     </tr>
   </thead>
   <tbody>
@@ -63,136 +65,166 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td markdown="span">
         [ADIOS2][ADIOS2]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#adios2_rocm))</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#adios2_rocm))</td><!-- GCC + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- CCE -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#adios2_rocm))</td><!-- CCE + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- AMD -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#adios2_rocm))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="na" style="text-align: center">N/A</td><!-- GCC + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- CCE -->
+      <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- AMD -->
+      <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="na" style="text-align: center">N/A</td><!-- GCC + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- CCE -->
+      <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- AMD -->
+      <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [PNetCDF][PNetCDF]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="na" style="text-align: center">N/A</td><!-- GCC + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- CCE -->
+      <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- AMD -->
+      <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [UnifyFS][UnifyFS]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="na" style="text-align: center">N/A</td><!-- GCC + ROCm -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#unifyfs_frontier))</td><!-- CCE -->
+      <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#unifyfs_frontier))</td><!-- AMD -->
+      <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VeloC][VeloC]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_cuda))</td><!-- CUDA -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_rocm))</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_rocm))</td><!-- GCC + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- CCE -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_rocm))</td><!-- CCE + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- AMD -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_rocm))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="failing" style="text-align: center" markdown="span">([🚫](#ascent_cuda))</td><!-- CUDA -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#ascent_rocm))</td><!-- ROCm -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#ascent_sycl))</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#ascent_rocm))</td><!-- GCC + ROCm -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#ascent_find_mpi_frontier))</td><!-- CCE -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#ascent_rocm))</td><!-- CCE + ROCm -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#ascent_find_mpi_frontier))</td><!-- AMD -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#ascent_rocm))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Cinema][Cinema]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="na" style="text-align: center">N/A</td><!-- GCC + ROCm -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#cinema_frontier_python))</td><!-- CCE -->
+      <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- AMD -->
+      <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [ParaView][ParaView]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
-      <td class="verified" style="text-align: center">✅</td><!-- ROCm -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#paraview_sycl))</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC + ROCm -->
+      <td class="verified" style="text-align: center" markdown="span">([✅](#paraview_no_ospray))</td><!-- CCE -->
+      <td class="verified" style="text-align: center" markdown="span">([✅](#paraview_no_ospray))</td><!-- CCE + ROCm -->
+      <td class="verified" style="text-align: center" markdown="span">([✅](#paraview_no_ospray))</td><!-- AMD -->
+      <td class="verified" style="text-align: center" markdown="span">([✅](#paraview_no_ospray))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="verified" style="text-align: center" markdown="span">([✅](#sensei_ospray))</td><!-- CPU -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#sensei_kokkos))</td><!-- CUDA -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#sensei_kokkos))</td><!-- ROCm -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#sensei_kokkos))</td><!-- SYCL -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- GCC -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- GCC + ROCm -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- CCE -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- CCE + ROCm -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- AMD -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="verified" style="text-align: center" markdown="span">([✅](#visit_vtkm))</td><!-- CUDA -->
-      <td class="verified" style="text-align: center" markdown="span">([✅](#visit_vtkm))</td><!-- ROCm -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#visit_sycl))</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#visit_vtkm))</td><!-- GCC + ROCm -->
+      <td class="in_progress" style="text-align: center">🔎</td><!-- CCE -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#visit_vtkm))</td><!-- CCE + ROCm -->
+      <td class="in_progress" style="text-align: center">🔎</td><!-- AMD -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#visit_vtkm))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VTK-m][VTK-m]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
-      <td class="verified" style="text-align: center">✅</td><!-- ROCm -->
-      <td class="verified" style="text-align: center">✅</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="verified" style="text-align: center" markdown="span">([✅](#vtkm_rocm_openmp))</td><!-- GCC + ROCm -->
+      <td class="verified" style="text-align: center">🔎</td><!-- CCE -->
+      <td class="verified" style="text-align: center" markdown="span">([✅](#vtkm_rocm_openmp) [✅](#vtkm_cray_wrapper_workaround))</td><!-- CCE + ROCm -->
+      <td class="verified" style="text-align: center">🔎</td><!-- AMD -->
+      <td class="verified" style="text-align: center" markdown="span">([✅](#vtkm_rocm_openmp) [✅](#vtkm_cray_wrapper_workaround))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [SZ][SZ]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="na" style="text-align: center">N/A</td><!-- GCC + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- CCE -->
+      <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- AMD -->
+      <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [cuSZ][cuSZ]
       </td>
-      <td class="na" style="text-align: center">N/A</td><!-- CPU -->
-      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
+      <td class="na" style="text-align: center">N/A</td><!-- GCC -->
+      <td class="na" style="text-align: center">N/A</td><!-- GCC + ROCm -->
+      <td class="na" style="text-align: center">N/A</td><!-- CCE -->
+      <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
+      <td class="na" style="text-align: center">N/A</td><!-- AMD -->
+      <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [ZFP][ZFP]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#zfp_rocm))</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#zfp_rocm))</td><!-- GCC + ROCm -->
+      <td class="verified" style="text-align: center">🔎</td><!-- CCE -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#zfp_rocm))</td><!-- CCE + ROCm -->
+      <td class="verified" style="text-align: center">🔎</td><!-- AMD -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#zfp_rocm))</td><!-- AMD + ROCm -->
     </tr>
   </tbody>
 </table>
@@ -207,25 +239,25 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 
 <span id="adios2_rocm">**ADIOS2**</span> - ADIOS2 ROCm/HIP support is not expected in near term release.
 
-<span id="ascent_cuda">**Ascent**</span> - Ascent CUDA blocked by build errors in RAJA package.
+<span id="unifyfs_frontier">**UnifyFS**</span> - UnifyFS has a link error when using the Cray wrappers for the Cray and AMD toolchains.
+
+<span id="ascent_find_mpi_frontier">**Ascent**</span> - Using the CCE toolchain has issues locating MPI with CMake.
 
 <span id="ascent_rocm">**Ascent**</span> - Ascent spack recipe does not have support for ROCm. It is in under development in the Alpine Spack fork.
 
-<span id="ascent_sycl">**Ascent**</span> - Ascent currently does not have any known plans for explicit SYCL support.
+<span id="cinema_frontier_python">**Cinema**</span> - Failure to build working python modules for some of Cinemas dependency modules.
 
-<span id="paraview_sycl">**ParaView**</span> - ParaView using oneAPI does not support building SYCL kernels for VTK-m filters in released versions.
+<span id="paraview_no_ospray">**ParaView**</span> - OSPRay support has been disabled due to build errors.
 
-<span id="sensei_ospray">**SENSEI**</span> - SENSEI is developing native OSPRay rendering support.
-
-<span id="sensei_kokkos">**SENSEI**</span> - SENSEI is developing CUDA, ROCm, and SYCL support using kokkos.
+<span id="sensei_catalyst">**SENSEI**</span> - SENSEI is developing updates to support ParaView v5.11 and Catalyst 2.
 
 <span id="visit_hdf5_conflict">**VisIt**</span> - VisIt utilizes a VTK version locked to a Python that is not compatible with the Python requirements of PyH5, the HDF5 python interface used by Cinema.
 
 <span id="visit_vtkm">**VisIt**</span> - VTK-m enabled GPU support for CUDA and ROCm is available VisIt, but is not officially tested as part of the DAV-SDK due to ([HDF5 conflict](#visit_hdf5_conflict)) only recently being resolved.
 
-<span id="visit_sycl">**ParaView**</span> - VisIt using oneAPI does not support building SYCL kernels for VTK-m filters in released versions.
+<span id="vtkm_rocm_openmp">**VTK-m**</span> - Spack ROCm does not provide OpenMP correclty for VTKm HIP modules.
 
-<span id="veloc_cuda">**VeloC**</span> - VeloC CUDA support for VeloC is under development.
+<span id="vtkm_cray_wrapper_workaround">**VTK-m**</span> - Frontier requires additional workarounds in the Spack recipe for VTKm that are specific to the Cray wrappers on Frontier. [patch](https://github.com/spack/spack/pull/34427)
 
 <span id="veloc_rocm">**VeloC**</span> - VeloC ROCm (Kokkos) support for VeloC is experimental in [kokkos-resilience](https://github.com/kokkos/kokkos-resilience)
 
