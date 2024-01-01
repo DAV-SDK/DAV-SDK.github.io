@@ -20,7 +20,7 @@ The following projects are included as part of the DAV SDK:
 
 ## Integration Status
 
-<span style="border-width:3px; border-style:solid; border-color:#d73027; padding: 0.5em;">[General Spack](./general-spack.html)</span>&emsp;
+<span style="border-width:3px; border-style:solid; border-color:#d73027; padding: 0.5em;">[Spack](./spack.html)</span>&emsp;
 <span style="border-width:3px; border-style:solid; border-color:#fc8d59; padding: 0.5em;">[DAV SDK](./dav-sdk.html)</span>&emsp;
 <span style="border-width:3px; border-style:solid; border-color:#fee090; padding: 0.5em;">[E4S](./e4s.html)</span>&emsp;
 <span style="border-width:3px; border-style:solid; border-color:#e0f3f8; padding: 0.5em;">[Frontier](./frontier.html)</span>&emsp;

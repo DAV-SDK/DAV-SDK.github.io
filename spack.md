@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## General Spack Support
+## Spack Support
 
 [back](./)
 
