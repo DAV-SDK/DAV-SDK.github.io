@@ -1,6 +1,6 @@
 title: DAV-SDK
 description: >-
-  DOE PESO/OASIS Project DAV-SDK
+  Project DAV-SDK part of DOE PESO/OASIS projects
 logo: /assets/img/dav-sdk.png
 
 baseurl: ""
@@ -13,4 +13,5 @@ plugins:
 # See https://github.com/pages-themes/slate/blob/a185c0dde883863779be4856421ba0b2390f44a4/_layouts/default.html#L19
 # On deployment "View on GitHub" was not showing.
 github:
-  is_project_page: false
+  is_project_page: true
+  repository_url: https://github.com/DAV-SDK/davsdk
