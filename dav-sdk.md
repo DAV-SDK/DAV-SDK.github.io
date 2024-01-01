@@ -183,7 +183,7 @@ layout: default
 
 <span id="visit_vtkm">**VisIt**</span> - VTK-m enabled GPU support for CUDA and ROCm is available VisIt, but is not officially tested as part of the DAV-SDK due to ([HDF5 conflict](#visit_hdf5_conflict)) only recently being resolved.
 
-<span id="visit_sycl">**ParaView**</span> - VisIt using oneAPI does not support building SYCL kernels for VTK-m filters in released versions.
+<span id="visit_sycl">**VisIt**</span> - VisIt using oneAPI does not support building SYCL kernels for VTK-m filters in released versions.
 
 <span id="veloc_cuda">**VeloC**</span> - VeloC CUDA support for VeloC is under development.
 
