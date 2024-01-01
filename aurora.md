@@ -177,11 +177,11 @@ for the oneAPI compilers, in particular how they wrap MPI and SYCL.
 
 <span id="hdf5_vol-daos">**HDF5**</span> - HDF5 vol DAOS.
 
-<span id="paraview_oneapi_sycl">**ParaView**</span> - ParaView and VisIt do not support building SYCL kernels for VTK-m filters in released versions.
+<span id="paraview_oneapi_sycl">**ParaView**</span> - ParaView does not support building SYCL kernels for VTK-m filters in released versions.
 
-<span id="paraview_no_ospray">**ParaView**</span> - OSPRay support has been disabled due to build errors.
+<span id="paraview_no_ospray">**ParaView**</span> - ParaView OSPRay support has been disabled due to build errors.
 
-<span id="paraview_oneapi_python">**ParaView**</span> - Failure to build a number of Python modules with OneAPI.
+<span id="paraview_oneapi_python">**ParaView**</span> - ParaView failure to build a number of Python modules with OneAPI.
 
 <span id="sensei_ospray">**SENSEI**</span> - SENSEI is developing native OSPRay rendering support.
 
@@ -189,11 +189,11 @@ for the oneAPI compilers, in particular how they wrap MPI and SYCL.
 
 <span id="sensei_catalyst">**SENSEI**</span> - SENSEI is developing updates to support ParaView v5.11 and Catalyst 2.
 
-<span id="visit_vtkm">**VisIt**</span> - VTK-m enabled GPU support for CUDA and ROCm is available VisIt, but is not officially tested as part of the DAV-SDK due to ([HDF5 conflict](#visit_hdf5_conflict)) only recently being resolved.
+<span id="visit_vtkm">**VisIt**</span> - VisIt VTK-m enabled GPU support for CUDA and ROCm is available VisIt, but is not officially tested as part of the DAV-SDK due to ([HDF5 conflict](#visit_hdf5_conflict)) only recently being resolved.
 
 <span id="vtkm_sycl">**VTK-m**</span> - VTK-M oneAPI using SYCL.
 
-<span id="zfp_sycl">**VTK-m**</span> - ZFP oneAPI using SYCL.
+<span id="zfp_sycl">**ZFP**</span> - ZFP oneAPI using SYCL.
 
 [back](./)
 
