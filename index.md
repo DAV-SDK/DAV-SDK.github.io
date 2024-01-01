@@ -17,11 +17,11 @@ The data, analysis, and visualization (DAV) software development kit (SDK), or D
 
 The following projects are included as part of the DAV SDK:
 
-<p style="text-align: center">
+<div style="text-align: center">
 <span style="border-width:3px; border-style:solid; border-color:#fc8d59; padding: 0.5em;">[I/O](./io.html)</span>&emsp;
 <span style="border-width:3px; border-style:solid; border-color:#ffffbf; padding: 0.5em;">[Compression](./compression.html)</span>&emsp;
 <span style="border-width:3px; border-style:solid; border-color:#91bfdb; padding: 0.5em;">[Analysis and Visualization](./analysis-visualization.html)</span>
-</p>
+</div>
 
 ## Integration Status
 
