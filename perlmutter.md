@@ -187,7 +187,7 @@ for the NVHPC compilers, in particular how they wrap MPI and CUDA.
 
 <span id="ascent_perlmutter_mpi">**Ascent**</span> - The way MPI is set up on Perlmutter conflicts with Ascent's spack recipe and CMake. Fixes for this are being developed.
 
-<span id="paraview_cuda">**Ascent**</span> - ParaView VTK-m using CUDA.
+<span id="paraview_cuda">**ParaView**</span> - ParaView VTK-m using CUDA.
 
 <span id="sensei_catalyst">**SENSEI**</span> - SENSEI is developing updates to support ParaView v5.11 and Catalyst 2.
 
