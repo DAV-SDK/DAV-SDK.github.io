@@ -74,17 +74,6 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
     </tr>
     <tr>
       <td markdown="span">
-        [Darshan][Darshan]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
-      <td class="na" style="text-align: center">N/A</td><!-- GCC + ROCm -->
-      <td class="verified" style="text-align: center">✅</td><!-- CCE -->
-      <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
-      <td class="verified" style="text-align: center">✅</td><!-- AMD -->
-      <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
-    </tr>
-    <tr>
-      <td markdown="span">
         [HDF5][HDF5]
       </td>
       <td class="verified" style="text-align: center">✅</td><!-- GCC -->
@@ -93,39 +82,6 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
       <td class="verified" style="text-align: center">✅</td><!-- AMD -->
       <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [PNetCDF][PNetCDF]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
-      <td class="na" style="text-align: center">N/A</td><!-- GCC + ROCm -->
-      <td class="verified" style="text-align: center">✅</td><!-- CCE -->
-      <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
-      <td class="verified" style="text-align: center">✅</td><!-- AMD -->
-      <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [UnifyFS][UnifyFS]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
-      <td class="na" style="text-align: center">N/A</td><!-- GCC + ROCm -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#unifyfs_frontier))</td><!-- CCE -->
-      <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#unifyfs_frontier))</td><!-- AMD -->
-      <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [VeloC][VeloC]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_rocm))</td><!-- GCC + ROCm -->
-      <td class="verified" style="text-align: center">✅</td><!-- CCE -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_rocm))</td><!-- CCE + ROCm -->
-      <td class="verified" style="text-align: center">✅</td><!-- AMD -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_rocm))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -140,14 +96,14 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
     </tr>
     <tr>
       <td markdown="span">
-        [Cinema][Cinema]
+        [DIY][DIY]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
-      <td class="na" style="text-align: center">N/A</td><!-- GCC + ROCm -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#cinema_frontier_python))</td><!-- CCE -->
-      <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
-      <td class="verified" style="text-align: center">✅</td><!-- AMD -->
-      <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- GCC -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- GCC + ROCm -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- CCE -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- CCE + ROCm -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- AMD -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -159,17 +115,6 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="verified" style="text-align: center" markdown="span">([✅](#paraview_no_ospray))</td><!-- CCE + ROCm -->
       <td class="verified" style="text-align: center" markdown="span">([✅](#paraview_no_ospray))</td><!-- AMD -->
       <td class="verified" style="text-align: center" markdown="span">([✅](#paraview_no_ospray))</td><!-- AMD + ROCm -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [SENSEI][SENSEI]
-      </td>
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- GCC -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- GCC + ROCm -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- CCE -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- CCE + ROCm -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- AMD -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -193,39 +138,6 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="verified" style="text-align: center">🔎</td><!-- AMD -->
       <td class="verified" style="text-align: center" markdown="span">([✅](#vtkm_rocm_openmp) [✅](#vtkm_cray_wrapper_workaround))</td><!-- AMD + ROCm -->
     </tr>
-    <tr>
-      <td markdown="span">
-        [SZ][SZ]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
-      <td class="na" style="text-align: center">N/A</td><!-- GCC + ROCm -->
-      <td class="verified" style="text-align: center">✅</td><!-- CCE -->
-      <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
-      <td class="verified" style="text-align: center">✅</td><!-- AMD -->
-      <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [cuSZ][cuSZ]
-      </td>
-      <td class="na" style="text-align: center">N/A</td><!-- GCC -->
-      <td class="na" style="text-align: center">N/A</td><!-- GCC + ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- CCE -->
-      <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- AMD -->
-      <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [ZFP][ZFP]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#zfp_rocm))</td><!-- GCC + ROCm -->
-      <td class="verified" style="text-align: center">🔎</td><!-- CCE -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#zfp_rocm))</td><!-- CCE + ROCm -->
-      <td class="verified" style="text-align: center">🔎</td><!-- AMD -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#zfp_rocm))</td><!-- AMD + ROCm -->
-    </tr>
   </tbody>
 </table>
 
@@ -245,11 +157,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 
 <span id="ascent_rocm">**Ascent**</span> - Ascent spack recipe does not have support for ROCm. It is in under development in the Alpine Spack fork.
 
-<span id="cinema_frontier_python">**Cinema**</span> - Failure to build working python modules for some of Cinemas dependency modules.
+<span id="diy">**DIY**</span> - Not yet in DAV SDK.
 
 <span id="paraview_no_ospray">**ParaView**</span> - OSPRay support has been disabled due to build errors.
-
-<span id="sensei_catalyst">**SENSEI**</span> - SENSEI is developing updates to support ParaView v5.11 and Catalyst 2.
 
 <span id="visit_hdf5_conflict">**VisIt**</span> - VisIt utilizes a VTK version locked to a Python that is not compatible with the Python requirements of PyH5, the HDF5 python interface used by Cinema.
 
@@ -259,24 +169,12 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 
 <span id="vtkm_cray_wrapper_workaround">**VTK-m**</span> - Frontier requires additional workarounds in the Spack recipe for VTKm that are specific to the Cray wrappers on Frontier. [patch](https://github.com/spack/spack/pull/34427)
 
-<span id="veloc_rocm">**VeloC**</span> - VeloC ROCm (Kokkos) support for VeloC is experimental in [kokkos-resilience](https://github.com/kokkos/kokkos-resilience)
-
-<span id="zfp_rocm">**ZFP**</span> - ZFP ROCm support is under development.
-
 [back](./)
 
 [ADIOS2]: https://csmd.ornl.gov/software/adios2
-[Darshan]: https://www.mcs.anl.gov/research/projects/darshan/
 [HDF5]: https://www.hdfgroup.org/solutions/hdf5/
-[PNetCDF]: https://parallel-netcdf.github.io/
-[UnifyFS]: https://unifyfs.readthedocs.io/en/latest/
-[VeloC]: https://veloc.readthedocs.io/en/latest/
 [Ascent]: https://github.com/Alpine-DAV/ascent
-[Cinema]: https://cinemascience.github.io
+[DIY]: https://gitlab.kitware.com/diatomic/diy
 [ParaView]: https://paraview.org
-[SENSEI]: https://sensei-insitu.org/
 [VisIt]: https://visit-dav.github.io/visit-website/
 [VTK-m]: https://m.vtk.org
-[SZ]: https://szcompressor.org
-[cuSZ]: https://github.com/szcompressor/cuSZ
-[ZFP]: https://computing.llnl.gov/projects/zfp
