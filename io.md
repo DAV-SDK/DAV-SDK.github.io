@@ -8,7 +8,6 @@ layout: default
 
 * [ADIOS2][ADIOS2]: An adaptable framework for HPC I/O supporting files, in situ,
   and in transit data movement. ADIOS2 also generates an HDF5 VOL Adapter.
-* [Darshan][Darshan]: An HPC I/O characterization tool.
 * [HDF5][HDF5]: A data model, library, and file format for storing and managing
   data.
     * CUDA support (where applicable) is provided by the [HDF5 GPUDirect Storage
@@ -29,12 +28,6 @@ layout: default
           Storage (DAOS) system, bypassing both MPI I/O and POSIX for efficient
           and scalable I/O. This VOL adapter is currently being tested on Pre-Aurora
           systems with DAOS support.
-* [PNetCDF][PNetCDF]: A high-performance parallel I/O library for accessing
-  Unidata's NetCDF, files in classic formats, specifically the formats of CDF-1,
-   2, and 5.
-* [UnifyFS][UnifyFS]: A filesystem for burst buffers.
-* [VeloC][VeloC]: A multi-level checkpoint-restart runtime for HPC
-  supercomputing infrastructures and large-scale data centers.
 
 [back](./)
 
@@ -45,8 +38,4 @@ layout: default
 [back](./)
 
 [ADIOS2]: https://csmd.ornl.gov/software/adios2
-[Darshan]: https://www.mcs.anl.gov/research/projects/darshan/
 [HDF5]: https://www.hdfgroup.org/solutions/hdf5/
-[PNetCDF]: https://parallel-netcdf.github.io/
-[UnifyFS]: https://unifyfs.readthedocs.io/en/latest/
-[VeloC]: https://veloc.readthedocs.io/en/latest/
