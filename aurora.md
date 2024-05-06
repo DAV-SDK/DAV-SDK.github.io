@@ -70,9 +70,9 @@ for the oneAPI compilers, in particular how they wrap MPI and SYCL.
       <td markdown="span">
         [DIY][DIY]
       </td>
-      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- GCC -->
-      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- oneAPI -->
-      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- oneAPI + SYCL -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- GCC -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- oneAPI -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- oneAPI + SYCL -->
     </tr>
     <tr>
       <td markdown="span">
