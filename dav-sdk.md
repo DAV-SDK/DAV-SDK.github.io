@@ -48,10 +48,10 @@ layout: default
       <td markdown="span">
         [DIY][DIY]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- CUDA -->
-      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- ROCm -->
-      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- SYCL -->
+      <td class="na" style="text-align: center" markdown="span">✅</td><!-- CPU -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- CUDA -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- ROCm -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
