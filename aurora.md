@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Perlmutter Support
+## Aurora Support
 
 [back](./)
 
