@@ -16,7 +16,7 @@ This table is an overview of the status of the different CPU-only deployments of
       <th style="text-align: center">Docker</th>
       <th style="text-align: center">Frontier</th>
       <th style="text-align: center">Perlmutter</th>
-      <th style="text-align: center" markdown="span">([Aurora](#verified_on_sunspot))</th>
+      <th style="text-align: center">Aurora</th>
       <th style="text-align: center">Smoke</th>
     </tr>
   </thead>
@@ -24,17 +24,6 @@ This table is an overview of the status of the different CPU-only deployments of
     <tr>
       <td markdown="span">
         [ADIOS2][ADIOS2]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- Desktop -->
-      <td class="verified" style="text-align: center">✅</td><!-- Docker -->
-      <td class="verified" style="text-align: center">✅</td><!-- Frontier -->
-      <td class="verified" style="text-align: center">✅</td><!-- Perlmutter -->
-      <td class="verified" style="text-align: center">✅</td><!-- Aurora -->
-      <td class="in_progress" style="text-align: center">🔎</td><!-- Smoke -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [Darshan][Darshan]
       </td>
       <td class="verified" style="text-align: center">✅</td><!-- Desktop -->
       <td class="verified" style="text-align: center">✅</td><!-- Docker -->
@@ -56,39 +45,6 @@ This table is an overview of the status of the different CPU-only deployments of
     </tr>
     <tr>
       <td markdown="span">
-        [PNetCDF][PNetCDF]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- Desktop -->
-      <td class="verified" style="text-align: center">✅</td><!-- Docker -->
-      <td class="verified" style="text-align: center">✅</td><!-- Frontier -->
-      <td class="verified" style="text-align: center">✅</td><!-- Perlmutter -->
-      <td class="verified" style="text-align: center">✅</td><!-- Aurora -->
-      <td class="in_progress" style="text-align: center">🔎</td><!-- Smoke -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [UnifyFS][UnifyFS]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- Desktop -->
-      <td class="verified" style="text-align: center">✅</td><!-- Docker -->
-      <td class="verified" style="text-align: center">✅</td><!-- Frontier -->
-      <td class="verified" style="text-align: center">✅</td><!-- Perlmutter -->
-      <td class="verified" style="text-align: center">✅</td><!-- Aurora -->
-      <td class="in_progress" style="text-align: center">🔎</td><!-- Smoke -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [VeloC][VeloC]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- Desktop -->
-      <td class="verified" style="text-align: center">✅</td><!-- Docker -->
-      <td class="verified" style="text-align: center">✅</td><!-- Frontier -->
-      <td class="verified" style="text-align: center">✅</td><!-- Perlmutter -->
-      <td class="verified" style="text-align: center">✅</td><!-- Aurora -->
-      <td class="in_progress" style="text-align: center">🔎</td><!-- Smoke -->
-    </tr>
-    <tr>
-      <td markdown="span">
         [Ascent][Ascent]
       </td>
       <td class="verified" style="text-align: center">✅</td><!-- Desktop -->
@@ -100,14 +56,14 @@ This table is an overview of the status of the different CPU-only deployments of
     </tr>
     <tr>
       <td markdown="span">
-        [Cinema][Cinema]
+        [DIY][DIY]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- Desktop -->
-      <td class="verified" style="text-align: center">✅</td><!-- Docker -->
-      <td class="verified" style="text-align: center">✅</td><!-- Frontier -->
-      <td class="verified" style="text-align: center">✅</td><!-- Perlmutter -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#cinema_oneapi_python))</td><!-- Aurora -->
-      <td class="in_progress" style="text-align: center">🔎</td><!-- Smoke -->
+      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- Desktop -->
+      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- Docker -->
+      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- Frontier -->
+      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- Perlmutter -->
+      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- Aurora -->
+      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- Smoke -->
     </tr>
     <tr>
       <td markdown="span">
@@ -119,17 +75,6 @@ This table is an overview of the status of the different CPU-only deployments of
       <td class="verified" style="text-align: center">✅</td><!-- Perlmutter -->
       <td class="in_progress" style="text-align: center" markdown="span">([🔎](#paraview_no_ospray)[🔎](#paraview_oneapi_python))</td><!-- Aurora -->
       <td class="verified" style="text-align: center">✅</td><!-- Smoke -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [SENSEI][SENSEI]
-      </td>
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- Desktop -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- Docker -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- Frontier -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- Perlmutter -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- Aurora -->
-      <td class="in_progress" style="text-align: center">🔎</td><!-- Smoke -->
     </tr>
     <tr>
       <td markdown="span">
@@ -153,39 +98,6 @@ This table is an overview of the status of the different CPU-only deployments of
       <td class="in_progress" style="text-align: center">🔎</td><!-- Aurora -->
       <td class="verified" style="text-align: center">✅</td><!-- Smoke -->
     </tr>
-    <tr>
-      <td markdown="span">
-        [SZ][SZ]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- Desktop -->
-      <td class="verified" style="text-align: center">✅</td><!-- Docker -->
-      <td class="verified" style="text-align: center">✅</td><!-- Frontier -->
-      <td class="verified" style="text-align: center">✅</td><!-- Perlmutter -->
-      <td class="verified" style="text-align: center">✅</td><!-- Aurora -->
-      <td class="in_progress" style="text-align: center">🔎</td><!-- Smoke -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [cuSZ][cuSZ]
-      </td>
-      <td class="na" style="text-align: center">N/A</td><!-- Desktop -->
-      <td class="na" style="text-align: center">N/A</td><!-- Docker -->
-      <td class="na" style="text-align: center">N/A</td><!-- Frontier -->
-      <td class="na" style="text-align: center">N/A</td><!-- Perlmutter -->
-      <td class="na" style="text-align: center">N/A</td><!-- Aurora -->
-      <td class="na" style="text-align: center">N/A</td><!-- Smoke -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [ZFP][ZFP]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- Desktop -->
-      <td class="verified" style="text-align: center">✅</td><!-- Docker -->
-      <td class="verified" style="text-align: center">✅</td><!-- Frontier -->
-      <td class="verified" style="text-align: center">✅</td><!-- Perlmutter -->
-      <td class="verified" style="text-align: center">✅</td><!-- Aurora -->
-      <td class="in_progress" style="text-align: center">🔎</td><!-- Smoke -->
-    </tr>
   </tbody>
 </table>
 
@@ -201,7 +113,7 @@ This table is an overview of the status of the different CPU-only deployments of
 
 <span id="ascent_find_mpi_frontier">**Ascent**</span> - Using the CCE toolchain has issues locating MPI with CMake.
 
-<span id="cinema_oneapi_python">**Cinema**</span> - Failure to build a number of Python modules with OneAPI.
+<span id="diy">**DIY**</span> - Not yet in DAV SDK.
 
 <span id="hdf5_vols_oneapi">**HDF5**</span> - HDF5 vols oneAPI ???.
 
@@ -214,17 +126,9 @@ This table is an overview of the status of the different CPU-only deployments of
 [back](./)
 
 [ADIOS2]: https://csmd.ornl.gov/software/adios2
-[Darshan]: https://www.mcs.anl.gov/research/projects/darshan/
 [HDF5]: https://www.hdfgroup.org/solutions/hdf5/
-[PNetCDF]: https://parallel-netcdf.github.io/
-[UnifyFS]: https://unifyfs.readthedocs.io/en/latest/
-[VeloC]: https://veloc.readthedocs.io/en/latest/
 [Ascent]: https://github.com/Alpine-DAV/ascent
-[Cinema]: https://cinemascience.github.io
+[DIY]: https://gitlab.kitware.com/diatomic/diy
 [ParaView]: https://paraview.org
-[SENSEI]: https://sensei-insitu.org/
 [VisIt]: https://visit-dav.github.io/visit-website/
 [VTK-m]: https://m.vtk.org
-[SZ]: https://szcompressor.org
-[cuSZ]: https://github.com/szcompressor/cuSZ
-[ZFP]: https://computing.llnl.gov/projects/zfp
