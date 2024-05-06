@@ -64,43 +64,11 @@ for the NVHPC compilers, in particular how they wrap MPI and CUDA.
     </tr>
     <tr>
       <td markdown="span">
-        [Darshan][Darshan]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
-      <td class="na" style="text-align: center">N/A</td><!-- GCC + CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- NVHPC + CUDA -->
-    </tr>
-    <tr>
-      <td markdown="span">
         [HDF5][HDF5]
       </td>
       <td class="verified" style="text-align: center">✅</td><!-- GCC -->
       <td class="na" style="text-align: center">N/A</td><!-- GCC + CUDA -->
       <td class="na" style="text-align: center">N/A</td><!-- NVHPC + CUDA -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [PNetCDF][PNetCDF]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
-      <td class="na" style="text-align: center">N/A</td><!-- GCC + CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- NVHPC + CUDA -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [UnifyFS][UnifyFS]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
-      <td class="na" style="text-align: center">N/A</td><!-- GCC + CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- NVHPC + CUDA -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [VeloC][VeloC]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_cuda))</td><!-- GCC + CUDA -->
-      <td class="verified" style="text-align: center" markdown="span">([N/A](#veloc_cuda))</td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
@@ -112,11 +80,11 @@ for the NVHPC compilers, in particular how they wrap MPI and CUDA.
     </tr>
     <tr>
       <td markdown="span">
-        [Cinema][Cinema]
+        [DIY][DIY]
       </td>
-      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
-      <td class="na" style="text-align: center">N/A</td><!-- GCC + CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- NVHPC + CUDA -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- GCC -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- GCC + CUDA -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
@@ -125,14 +93,6 @@ for the NVHPC compilers, in particular how they wrap MPI and CUDA.
       <td class="verified" style="text-align: center">✅</td><!-- GCC -->
       <td class="in_progress" style="text-align: center" markdown="span">([🔎](#paraview_cuda))</td><!-- GCC + CUDA -->
       <td class="in_progress" style="text-align: center" markdown="span">([🔎](#paraview_cuda))</td><!-- NVHPC + CUDA -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [SENSEI][SENSEI]
-      </td>
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- GCC -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- GCC + CUDA -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
@@ -150,30 +110,6 @@ for the NVHPC compilers, in particular how they wrap MPI and CUDA.
       <td class="verified" style="text-align: center">✅</td><!-- GCC + CUDA -->
       <td class="in_progress" style="text-align: center" markdown="span">([🔎](#vtkm_nvhpc))</td><!-- NVHPC + CUDA -->
     </tr>
-    <tr>
-      <td markdown="span">
-        [SZ][SZ]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
-      <td class="na" style="text-align: center">N/A</td><!-- GCC + CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- NVHPC + CUDA -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [cuSZ][cuSZ]
-      </td>
-      <td class="na" style="text-align: center">N/A</td><!-- GCC -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#cusz_cuda))</td><!-- GCC + CUDA -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#cusz_cuda))</td><!-- NVHPC + CUDA -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [ZFP][ZFP]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
-      <td class="verified" style="text-align: center">✅</td><!-- GCC + CUDA -->
-      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#zfp_nvhpc))</td><!-- NVHPC + CUDA -->
-    </tr>
   </tbody>
 </table>
 
@@ -187,9 +123,9 @@ for the NVHPC compilers, in particular how they wrap MPI and CUDA.
 
 <span id="ascent_perlmutter_mpi">**Ascent**</span> - The way MPI is set up on Perlmutter conflicts with Ascent's spack recipe and CMake. Fixes for this are being developed.
 
-<span id="paraview_cuda">**ParaView**</span> - ParaView VTK-m using CUDA.
+<span id="diy">**DIY**</span> - Not yet in DAV SDK.
 
-<span id="sensei_catalyst">**SENSEI**</span> - SENSEI is developing updates to support ParaView v5.11 and Catalyst 2.
+<span id="paraview_cuda">**ParaView**</span> - ParaView VTK-m using CUDA.
 
 <span id="visit_hdf5_conflict">**VisIt**</span> - VisIt utilizes a VTK version locked to a Python that is not compatible with the Python requirements of PyH5, the HDF5 python interface used by Cinema.
 
@@ -197,24 +133,14 @@ for the NVHPC compilers, in particular how they wrap MPI and CUDA.
 
 <span id="vtkm_nvhpc">**VTK-m**</span> - VTK-M NVHPC using CUDA.
 
-<span id="cusz_cuda">**cuSZ**</span> - cuSZ using CUDA.
-
 <span id="zfp_nvhpc">**VTK-m**</span> - VTK-M NVHPC using CUDA.
 
 [back](./)
 
 [ADIOS2]: https://csmd.ornl.gov/software/adios2
-[Darshan]: https://www.mcs.anl.gov/research/projects/darshan/
 [HDF5]: https://www.hdfgroup.org/solutions/hdf5/
-[PNetCDF]: https://parallel-netcdf.github.io/
-[UnifyFS]: https://unifyfs.readthedocs.io/en/latest/
-[VeloC]: https://veloc.readthedocs.io/en/latest/
 [Ascent]: https://github.com/Alpine-DAV/ascent
-[Cinema]: https://cinemascience.github.io
+[DIY]: https://gitlab.kitware.com/diatomic/diy
 [ParaView]: https://paraview.org
-[SENSEI]: https://sensei-insitu.org/
 [VisIt]: https://visit-dav.github.io/visit-website/
 [VTK-m]: https://m.vtk.org
-[SZ]: https://szcompressor.org
-[cuSZ]: https://github.com/szcompressor/cuSZ
-[ZFP]: https://computing.llnl.gov/projects/zfp
