@@ -28,47 +28,11 @@ layout: default
     </tr>
     <tr>
       <td markdown="span">
-        [Darshan][Darshan]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
-    </tr>
-    <tr>
-      <td markdown="span">
         [HDF5][HDF5]
       </td>
       <td class="verified" style="text-align: center">✅</td><!-- CPU -->
       <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
       <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [PNetCDF][PNetCDF]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [UnifyFS][UnifyFS]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [VeloC][VeloC]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_cuda))</td><!-- CUDA -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#veloc_rocm))</td><!-- ROCm -->
       <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
     </tr>
     <tr>
@@ -82,12 +46,12 @@ layout: default
     </tr>
     <tr>
       <td markdown="span">
-        [Cinema][Cinema]
+        [DIY][DIY]
       </td>
       <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
+      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- CUDA -->
+      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- ROCm -->
+      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -97,15 +61,6 @@ layout: default
       <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
       <td class="verified" style="text-align: center">✅</td><!-- ROCm -->
       <td class="na" style="text-align: center" markdown="span">([N/A](#paraview_sycl))</td><!-- SYCL -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [SENSEI][SENSEI]
-      </td>
-      <td class="verified" style="text-align: center" markdown="span">([🔎](#sensei_catalyst))</td><!-- CPU -->
-      <td class="na" style="text-align: center" markdown="span">([🔎](#sensei_kokkos)[🔎](#sensei_catalyst))</td><!-- CUDA -->
-      <td class="na" style="text-align: center" markdown="span">([🔎](#sensei_kokkos)[🔎](#sensei_catalyst))</td><!-- ROCm -->
-      <td class="na" style="text-align: center" markdown="span">([🔎](#sensei_kokkos)[🔎](#sensei_catalyst))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -124,33 +79,6 @@ layout: default
       <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
       <td class="verified" style="text-align: center">✅</td><!-- ROCm -->
       <td class="in_progress" style="text-align: center">🔎</td><!-- SYCL -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [SZ][SZ]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [cuSZ][cuSZ]
-      </td>
-      <td class="na" style="text-align: center">N/A</td><!-- CPU -->
-      <td class="in_progress" style="text-align: center">✅</td><!-- CUDA -->
-      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
-    </tr>
-    <tr>
-      <td markdown="span">
-        [ZFP][ZFP]
-      </td>
-      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
-      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
-      <td class="na" style="text-align: center" markdown="span">([N/A](#zfp_rocm))</td><!-- ROCm -->
-      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
     </tr>
   </tbody>
 </table>
@@ -171,13 +99,9 @@ layout: default
 
 <span id="ascent_sycl">**Ascent**</span> - Ascent currently does not have any known plans for explicit SYCL support.
 
+<span id="diy">**DIY**</span> - Not yet in DAV SDK.
+
 <span id="paraview_sycl">**ParaView**</span> - ParaView using oneAPI does not support building SYCL kernels for VTK-m filters in released versions.
-
-<span id="sensei_ospray">**SENSEI**</span> - SENSEI is developing native OSPRay rendering support.
-
-<span id="sensei_kokkos">**SENSEI**</span> - SENSEI is developing CUDA, ROCm, and SYCL support using kokkos.
-
-<span id="sensei_catalyst">**SENSEI**</span> - SENSEI is developing updates to support ParaView v5.11 and Catalyst 2.
 
 <span id="visit_hdf5_conflict">**VisIt**</span> - VisIt utilizes a VTK version locked to a Python that is not compatible with the Python requirements of PyH5, the HDF5 python interface used by Cinema.
 
@@ -185,26 +109,12 @@ layout: default
 
 <span id="visit_sycl">**VisIt**</span> - VisIt using oneAPI does not support building SYCL kernels for VTK-m filters in released versions.
 
-<span id="veloc_cuda">**VeloC**</span> - VeloC CUDA support for VeloC is under development.
-
-<span id="veloc_rocm">**VeloC**</span> - VeloC ROCm (Kokkos) support for VeloC is experimental in [kokkos-resilience](https://github.com/kokkos/kokkos-resilience)
-
-<span id="zfp_rocm">**ZFP**</span> - ZFP ROCm support is under development.
-
 [back](./)
 
 [ADIOS2]: https://csmd.ornl.gov/software/adios2
-[Darshan]: https://www.mcs.anl.gov/research/projects/darshan/
 [HDF5]: https://www.hdfgroup.org/solutions/hdf5/
-[PNetCDF]: https://parallel-netcdf.github.io/
-[UnifyFS]: https://unifyfs.readthedocs.io/en/latest/
-[VeloC]: https://veloc.readthedocs.io/en/latest/
 [Ascent]: https://github.com/Alpine-DAV/ascent
-[Cinema]: https://cinemascience.github.io
+[DIY]: https://gitlab.kitware.com/diatomic/diy
 [ParaView]: https://paraview.org
-[SENSEI]: https://sensei-insitu.org/
 [VisIt]: https://visit-dav.github.io/visit-website/
 [VTK-m]: https://m.vtk.org
-[SZ]: https://szcompressor.org
-[cuSZ]: https://github.com/szcompressor/cuSZ
-[ZFP]: https://computing.llnl.gov/projects/zfp
