@@ -58,12 +58,12 @@ This table is an overview of the status of the different CPU-only deployments of
       <td markdown="span">
         [DIY][DIY]
       </td>
-      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- Desktop -->
-      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- Docker -->
-      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- Frontier -->
-      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- Perlmutter -->
-      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- Aurora -->
-      <td class="na" style="text-align: center">([🔎](#diy))</td><!-- Smoke -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- Desktop -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- Docker -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- Frontier -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- Perlmutter -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- Aurora -->
+      <td class="na" style="text-align: center" markdown="span">([🔎](#diy))</td><!-- Smoke -->
     </tr>
     <tr>
       <td markdown="span">
