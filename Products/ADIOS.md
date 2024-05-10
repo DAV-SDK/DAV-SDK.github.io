@@ -19,7 +19,7 @@ ADIOS, the Adaptable Input/Output (I/O) System, transports data as groups of sel
         <strong>Impact</strong>
       </td>
       <td>
-        ADIOS is a scalable I/O solution that provides high I/O performance for applications from a single computer to exascale supercomputers. It is deployed at all major DOE compute facilities and used by high-profile applications in their daily production runs, including a number of DOE applications, such as WarpX, ImpactX, XGC, GENE, GEM, E3SM, S3D, Bout++, and GTC, and other data-intensive applications, like SPECFEM3D_GLOBE, PIConGPU, GE Research’ CFD simulation, TAE fusion simulations, etc.
+        ADIOS is a scalable I/O solution that provides high I/O performance for applications from a single computer to exascale supercomputers. It is deployed at all major DOE compute facilities and used by high-profile applications in their daily production runs, including several DOE applications, such as WarpX, ImpactX, XGC, GENE, GEM, E3SM, S3D, Bout++, and GTC, and other data-intensive applications, like SPECFEM3D_GLOBE, PIConGPU, GE Research’ CFD simulation, TAE fusion simulations, etc.
       </td>
     </tr>
     <tr>
@@ -57,28 +57,28 @@ ADIOS, the Adaptable Input/Output (I/O) System, transports data as groups of sel
   </thead>
   <tbody>
     <tr>
-      <td>
+      <td markdown="span">
         [ADIOS2][ADIOS2]
       </td><!-- Website -->
-      <td>
+      <td markdown="span">
         [Documentation][ADIOS2-DOC]
       </td><!-- Documentation -->
-      <td>
+      <td markdown="span">
         [Repository][ADIOS2-REPO]
       </td><!-- Repository -->
       <td style="text-align: center" markdown="span">✅</td><!-- Test Suite -->
-      <td>
+      <td markdown="span">
         [Spack][ADIOS2-Spack]
       </td><!-- Spack -->
       <td style="text-align: center" markdown="span">✅</td><!-- E4S -->
       <td style="text-align: center" markdown="span">🚫</td><!-- Smoke Test -->
     </tr>
   </tbody>
+</table>
 
-**Note**: Working with the OASIS leadership to refine metrics and identify methods to clearly demonstrate how project efforts lead to measurable increases in software quality.
+**Note**: Working with the OASIS leadership to refine metrics and identify methods to demonstrate how project efforts lead to measurable increases in software quality.
 
 [ADIOS2]: https://csmd.ornl.gov/software/adios2
 [ADIOS2-DOC]: https://adios2.readthedocs.io/en/v2.10.0/
 [ADIOS2-REPO]: https://github.com/ornladios/ADIOS2
 [ADIOS2-Spack]: https://github.com/spack/spack/blob/develop/var/spack/repos/builtin/packages/adios2/package.py
-</table>
