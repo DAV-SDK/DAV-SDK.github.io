@@ -17,6 +17,10 @@ The following projects are included as part of the DAV SDK:
 <span style="border-width:3px; border-style:solid; border-color:#d73027; padding: 0.25em;">[I/O](./io.html)</span>&emsp;
 <span style="border-width:3px; border-style:solid; border-color:#4575b4; padding: 0.25em;">[Analysis and Visualization](./analysis-visualization.html)</span>
 
+## Impact, Sustainability, and Quality Scorecards
+
+[Scorecards](./scorecards.html)
+
 ## Integration Status
 
 <span style="border-width:3px; border-style:solid; border-color:#d73027; padding: 0.25em;">[Spack](./spack.html)</span>&emsp;
