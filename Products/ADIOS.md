@@ -46,7 +46,6 @@ ADIOS, the Adaptable Input/Output (I/O) System, transports data as groups of sel
 <table class="status_table">
   <thead>
     <tr>
-      <th>Property</th>
       <th style="text-align: center">Website</th>
       <th style="text-align: center">Documentation</th>
       <th style="text-align: center">Repository</th>
