@@ -16,7 +16,7 @@ ADIOS, the Adaptable Input/Output (I/O) System, transports data as groups of sel
   <tbody>
     <tr>
       <td>
-        **Impact**
+        <strong>Impact</strong>
       </td>
       <td>
         ADIOS is a scalable I/O solution that provides high I/O performance for applications from a single computer to exascale supercomputers. It is deployed at all major DOE compute facilities and used by high-profile applications in their daily production runs, including a number of DOE applications, such as WarpX, ImpactX, XGC, GENE, GEM, E3SM, S3D, Bout++, and GTC, and other data-intensive applications, like SPECFEM3D_GLOBE, PIConGPU, GE Research’ CFD simulation, TAE fusion simulations, etc.
@@ -24,7 +24,7 @@ ADIOS, the Adaptable Input/Output (I/O) System, transports data as groups of sel
     </tr>
     <tr>
       <td>
-        **Sustainability**
+        <strong>Sustainability</strong>
       </td>
       <td>
         ADIOS's fundamental capabilities are file-based storage I/O and various in situ data transfers, namely in memory, in the system, and in wide-area-network staging. The continued support of these capabilities in updated or new systems and evolving or new applications is highly dependent on DOE funding.
@@ -32,7 +32,7 @@ ADIOS, the Adaptable Input/Output (I/O) System, transports data as groups of sel
     </tr>
     <tr>
       <td>
-        **Quality**
+        <strong>Quality</strong>
       </td>
       <td>
         ADIOS has well-established software management and testing processes, including public repository, bug tracking, documentation, and CI processes for many platforms.
