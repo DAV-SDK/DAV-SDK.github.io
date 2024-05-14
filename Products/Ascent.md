@@ -4,6 +4,8 @@
 
 Ascent is a many-core capable flyweight in situ visualization and analysis infrastructure for multi-physics HPC simulations.
 
+The Ascent in situ infrastructure is designed for leading-edge supercomputers and supports both distributed-memory and shared-memory parallelism. Ascent can take advantage of computing power on conventional CPU architectures and on many-core architectures such as NVIDIA and AMD GPUs. Further, it has a flexible design that supports the integration of new visualization and analysis routines and libraries.
+
 ### Impact, Sustainability, and Quality
 
 <table class="isq_table">
