@@ -58,7 +58,9 @@ DIY is an open-source package of scalable building blocks for data movement tail
   <tbody>
     <tr>
       <td style="text-align: center" markdown="span">🚫</td><!-- Website -->
-      <td style="text-align: center" markdown="span">🚫</td><!-- Documentation -->
+      <td markdown="span">
+        [Documentation][DIY-DOC]
+      </td><!-- Documentation -->
       <td markdown="span">
         [Repository][DIY-REPO]
       </td><!-- Repository -->
@@ -75,6 +77,6 @@ DIY is an open-source package of scalable building blocks for data movement tail
 **Note**: Working with the OASIS leadership to refine metrics and identify methods to demonstrate how project efforts lead to measurable increases in software quality.
 
 [DIY]: 
-[DIY-DOC]: 
+[DIY-DOC]: https://diatomic.github.io/diy/
 [DIY-REPO]: https://gitlab.kitware.com/diatomic/diy
 [DIY-Spack]: https://github.com/spack/spack/tree/c3576f712d3a3abb7137d29d30c02f0c7e637122/var/spack/repos/builtin/packages/diy
