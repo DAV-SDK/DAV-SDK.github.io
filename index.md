@@ -19,7 +19,7 @@ The following projects are included as part of the DAV SDK:
 
 ## Impact, Sustainability, and Quality Scorecards
 
-[Scorecards](./scorecards.html)
+<span style="border-width:3px; border-style:solid; border-color:#d73027; padding: 0.25em;">[Scorecards](./scorecards.html)</span>&emsp;
 
 ## Integration Status
 
