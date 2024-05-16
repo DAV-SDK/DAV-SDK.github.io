@@ -9,3 +9,4 @@
 - [ParaView](./Products/ParaView.html)
 - [VisIt](./Products/VisIt.html)
 - [Viskores](./Products/Viskores.html)
+- [ZFP](./Products/ZFP.html)
