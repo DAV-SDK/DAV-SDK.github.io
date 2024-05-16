@@ -72,6 +72,14 @@ for the NVHPC compilers, in particular how they wrap MPI and CUDA.
     </tr>
     <tr>
       <td markdown="span">
+        [PNetCDF][PNetCDF]
+      </td>
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="na" style="text-align: center">N/A</td><!-- GCC + CUDA -->
+      <td class="na" style="text-align: center">N/A</td><!-- NVHPC + CUDA -->
+    </tr>
+    <tr>
+      <td markdown="span">
         [Ascent][Ascent]
       </td>
       <td class="verified" style="text-align: center">✅</td><!-- GCC -->
@@ -110,6 +118,14 @@ for the NVHPC compilers, in particular how they wrap MPI and CUDA.
       <td class="verified" style="text-align: center">✅</td><!-- GCC + CUDA -->
       <td class="in_progress" style="text-align: center" markdown="span">([🔎](#vtkm_nvhpc))</td><!-- NVHPC + CUDA -->
     </tr>
+    <tr>
+      <td markdown="span">
+        [ZFP][ZFP]
+      </td>
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="verified" style="text-align: center">✅</td><!-- GCC + CUDA -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#zfp_nvhpc))</td><!-- NVHPC + CUDA -->
+    </tr>
   </tbody>
 </table>
 
@@ -139,8 +155,11 @@ for the NVHPC compilers, in particular how they wrap MPI and CUDA.
 
 [ADIOS2]: https://csmd.ornl.gov/software/adios2
 [HDF5]: https://www.hdfgroup.org/solutions/hdf5/
+[PNetCDF]: https://parallel-netcdf.github.io/
 [Ascent]: https://github.com/Alpine-DAV/ascent
 [DIY]: https://gitlab.kitware.com/diatomic/diy
 [ParaView]: https://paraview.org
 [VisIt]: https://visit-dav.github.io/visit-website/
 [VTK-m]: https://m.vtk.org
+[ZFP]: https://computing.llnl.gov/projects/zfp
+
