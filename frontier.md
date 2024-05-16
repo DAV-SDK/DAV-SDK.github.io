@@ -85,6 +85,17 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
     </tr>
     <tr>
       <td markdown="span">
+        [PNetCDF][PNetCDF]
+      </td>
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="na" style="text-align: center">N/A</td><!-- GCC + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- CCE -->
+      <td class="na" style="text-align: center">N/A</td><!-- CCE + ROCm -->
+      <td class="verified" style="text-align: center">✅</td><!-- AMD -->
+      <td class="na" style="text-align: center">N/A</td><!-- AMD + ROCm -->
+    </tr>
+    <tr>
+      <td markdown="span">
         [Ascent][Ascent]
       </td>
       <td class="verified" style="text-align: center">✅</td><!-- GCC -->
@@ -138,6 +149,17 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="verified" style="text-align: center">🔎</td><!-- AMD -->
       <td class="verified" style="text-align: center" markdown="span">([✅](#vtkm_rocm_openmp) [✅](#vtkm_cray_wrapper_workaround))</td><!-- AMD + ROCm -->
     </tr>
+    <tr>
+      <td markdown="span">
+        [ZFP][ZFP]
+      </td>
+      <td class="verified" style="text-align: center">✅</td><!-- GCC -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#zfp_rocm))</td><!-- GCC + ROCm -->
+      <td class="verified" style="text-align: center">🔎</td><!-- CCE -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#zfp_rocm))</td><!-- CCE + ROCm -->
+      <td class="verified" style="text-align: center">🔎</td><!-- AMD -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#zfp_rocm))</td><!-- AMD + ROCm -->
+    </tr>
   </tbody>
 </table>
 
@@ -169,12 +191,16 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 
 <span id="vtkm_cray_wrapper_workaround">**VTK-m**</span> - Frontier requires additional workarounds in the Spack recipe for VTKm that are specific to the Cray wrappers on Frontier. [patch](https://github.com/spack/spack/pull/34427)
 
+<span id="zfp_rocm">**ZFP**</span> - ZFP ROCm support is under development.
+
 [back](./)
 
 [ADIOS2]: https://csmd.ornl.gov/software/adios2
 [HDF5]: https://www.hdfgroup.org/solutions/hdf5/
+[PNetCDF]: https://parallel-netcdf.github.io/
 [Ascent]: https://github.com/Alpine-DAV/ascent
 [DIY]: https://gitlab.kitware.com/diatomic/diy
 [ParaView]: https://paraview.org
 [VisIt]: https://visit-dav.github.io/visit-website/
 [VTK-m]: https://m.vtk.org
+[ZFP]: https://computing.llnl.gov/projects/zfp
