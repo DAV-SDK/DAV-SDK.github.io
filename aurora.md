@@ -60,6 +60,14 @@ for the oneAPI compilers, in particular how they wrap MPI and SYCL.
     </tr>
     <tr>
       <td markdown="span">
+        [PNetCDF][PNetCDF]
+      </td>
+      <td class="verified" style="text-align: center" markdown="span">([✅](#verified_on_sunspot))</td><!-- GCC -->
+      <td class="verified" style="text-align: center" markdown="span">([✅](#verified_on_sunspot))</td><!-- oneAPI -->
+      <td class="na" style="text-align: center">N/A</td><!-- oneAPI + SYCL -->
+    </tr>
+    <tr>
+      <td markdown="span">
         [Ascent][Ascent]
       </td>
       <td class="verified" style="text-align: center" markdown="span">([✅](#verified_on_sunspot))</td><!-- GCC -->
@@ -98,6 +106,14 @@ for the oneAPI compilers, in particular how they wrap MPI and SYCL.
       <td class="verified" style="text-align: center" markdown="span">([✅](#verified_on_sunspot))</td><!-- oneAPI -->
       <td class="in_progress" style="text-align: center" markdown="span">([🔎](#vtkm-sycl))</td><!-- oneAPI + SYCL -->
     </tr>
+    <tr>
+      <td markdown="span">
+        [ZFP][ZFP]
+      </td>
+      <td class="verified" style="text-align: center" markdown="span">([✅](#verified_on_sunspot))</td><!-- GCC -->
+      <td class="verified" style="text-align: center" markdown="span">([✅](#verified_on_sunspot))</td><!-- oneAPI -->
+      <td class="in_progress" style="text-align: center" markdown="span">([🔎](#zfp-sycl))</td><!-- oneAPI + SYCL -->
+    </tr>
   </tbody>
 </table>
 
@@ -123,12 +139,17 @@ for the oneAPI compilers, in particular how they wrap MPI and SYCL.
 
 <span id="vtkm_sycl">**VTK-m**</span> - VTK-M oneAPI using SYCL.
 
+<span id="zfp_sycl">**ZFP**</span> - ZFP oneAPI using SYCL.
+
 [back](./)
 
 [ADIOS2]: https://csmd.ornl.gov/software/adios2
 [HDF5]: https://www.hdfgroup.org/solutions/hdf5/
+[PNetCDF]: https://parallel-netcdf.github.io/
 [Ascent]: https://github.com/Alpine-DAV/ascent
 [DIY]: https://gitlab.kitware.com/diatomic/diy
 [ParaView]: https://paraview.org
 [VisIt]: https://visit-dav.github.io/visit-website/
 [VTK-m]: https://m.vtk.org
+[ZFP]: https://computing.llnl.gov/projects/zfp
+
