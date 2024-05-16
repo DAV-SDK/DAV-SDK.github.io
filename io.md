@@ -28,6 +28,9 @@ layout: default
           Storage (DAOS) system, bypassing both MPI I/O and POSIX for efficient
           and scalable I/O. This VOL adapter is currently being tested on Pre-Aurora
           systems with DAOS support.
+* [PNetCDF][PNetCDF]: A high-performance parallel I/O library for accessing
+  Unidata's NetCDF, files in classic formats, specifically the formats of CDF-1,
+   2, and 5.
 
 [back](./)
 
@@ -39,3 +42,5 @@ layout: default
 
 [ADIOS2]: https://csmd.ornl.gov/software/adios2
 [HDF5]: https://www.hdfgroup.org/solutions/hdf5/
+[PNetCDF]: https://parallel-netcdf.github.io/
+
