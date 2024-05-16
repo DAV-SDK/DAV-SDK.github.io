@@ -37,6 +37,15 @@ layout: default
     </tr>
     <tr>
       <td markdown="span">
+        [PNetCDF][PNetCDF]
+      </td>
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="na" style="text-align: center">N/A</td><!-- CUDA -->
+      <td class="na" style="text-align: center">N/A</td><!-- ROCm -->
+      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
+    </tr>
+    <tr>
+      <td markdown="span">
         [Ascent][Ascent]
       </td>
       <td class="verified" style="text-align: center">✅</td><!-- CPU -->
@@ -80,6 +89,15 @@ layout: default
       <td class="verified" style="text-align: center">✅</td><!-- ROCm -->
       <td class="in_progress" style="text-align: center">🔎</td><!-- SYCL -->
     </tr>
+    <tr>
+      <td markdown="span">
+        [ZFP][ZFP]
+      </td>
+      <td class="verified" style="text-align: center">✅</td><!-- CPU -->
+      <td class="verified" style="text-align: center">✅</td><!-- CUDA -->
+      <td class="na" style="text-align: center" markdown="span">([N/A](#zfp_rocm))</td><!-- ROCm -->
+      <td class="na" style="text-align: center">N/A</td><!-- SYCL -->
+    </tr>
   </tbody>
 </table>
 
@@ -109,12 +127,16 @@ layout: default
 
 <span id="visit_sycl">**VisIt**</span> - VisIt using oneAPI does not support building SYCL kernels for VTK-m filters in released versions.
 
+<span id="zfp_rocm">**ZFP**</span> - ZFP ROCm support is under development.
+
 [back](./)
 
 [ADIOS2]: https://csmd.ornl.gov/software/adios2
 [HDF5]: https://www.hdfgroup.org/solutions/hdf5/
+[PNetCDF]: https://parallel-netcdf.github.io/
 [Ascent]: https://github.com/Alpine-DAV/ascent
 [DIY]: https://gitlab.kitware.com/diatomic/diy
 [ParaView]: https://paraview.org
 [VisIt]: https://visit-dav.github.io/visit-website/
 [VTK-m]: https://m.vtk.org
+[ZFP]: https://computing.llnl.gov/projects/zfp
