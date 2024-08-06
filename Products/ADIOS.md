@@ -71,7 +71,7 @@ ADIOS, the Adaptable Input/Output (I/O) System, transports data as groups of sel
         [Spack][ADIOS2-Spack]
       </td><!-- Spack -->
       <td style="text-align: center" markdown="span">✅</td><!-- E4S -->
-      <td style="text-align: center" markdown="span">🚫</td><!-- Smoke Test -->
+      <td style="text-align: center" markdown="span">✅</td><!-- Smoke Test -->
     </tr>
   </tbody>
 </table>
