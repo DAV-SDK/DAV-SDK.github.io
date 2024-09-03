@@ -57,7 +57,7 @@ DIY is an open-source package of scalable building blocks for data movement tail
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center" markdown="span">🚫</td><!-- Website -->
+      <td style="text-align: center" markdown="span">✅</td><!-- Website -->
       <td markdown="span">
         [Documentation][DIY-DOC]
       </td><!-- Documentation -->
@@ -69,7 +69,7 @@ DIY is an open-source package of scalable building blocks for data movement tail
         [Spack][DIY-Spack]
       </td><!-- Spack -->
       <td style="text-align: center" markdown="span">✅</td><!-- E4S -->
-      <td style="text-align: center" markdown="span">🚫</td><!-- Smoke Test -->
+      <td style="text-align: center" markdown="span">✅</td><!-- Smoke Test -->
     </tr>
   </tbody>
 </table>
