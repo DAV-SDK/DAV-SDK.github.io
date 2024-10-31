@@ -70,7 +70,7 @@ PnetCDF is a high-level library providing parallel and scalable access to Unidat
         [Spack][PNetCDF-Spack]
       </td><!-- Spack -->
       <td style="text-align: center" markdown="span">✅</td><!-- E4S -->
-      <td style="text-align: center" markdown="span">🚫</td><!-- Smoke Test -->
+      <td style="text-align: center" markdown="span">✅</td><!-- Smoke Test -->
     </tr>
   </tbody>
 </table>
