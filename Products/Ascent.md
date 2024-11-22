@@ -59,7 +59,7 @@ The Ascent in situ infrastructure is designed for leading-edge supercomputers an
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center" markdown="span">🚫</td><!-- Website -->
+      <td style="text-align: center" markdown="span">✅</td><!-- Website -->
       <td markdown="span">
         [Documentation][Ascent-DOC]
       </td><!-- Documentation -->
@@ -71,7 +71,7 @@ The Ascent in situ infrastructure is designed for leading-edge supercomputers an
         [Spack][Ascent-Spack]
       </td><!-- Spack -->
       <td style="text-align: center" markdown="span">✅</td><!-- E4S -->
-      <td style="text-align: center" markdown="span">🚫</td><!-- Smoke Test -->
+      <td style="text-align: center" markdown="span">✅</td><!-- Smoke Test -->
     </tr>
   </tbody>
 </table>
