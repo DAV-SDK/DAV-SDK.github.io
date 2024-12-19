@@ -71,7 +71,7 @@ HDF5 is a self-describing, portable, and hierarchical file format designed for h
         [Spack][HDF5-Spack]
       </td><!-- Spack -->
       <td style="text-align: center" markdown="span">✅</td><!-- E4S -->
-      <td style="text-align: center" markdown="span">🚫</td><!-- Smoke Test -->
+      <td style="text-align: center" markdown="span">✅</td><!-- Smoke Test -->
     </tr>
   </tbody>
 </table>
