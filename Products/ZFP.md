@@ -71,7 +71,7 @@ ZFP is an open source library for compressed floating-point and integer arrays t
         [Spack][ZFP-Spack]
       </td><!-- Spack -->
       <td style="text-align: center" markdown="span">✅</td><!-- E4S -->
-      <td style="text-align: center" markdown="span">🚫</td><!-- Smoke Test -->
+      <td style="text-align: center" markdown="span">✅</td><!-- Smoke Test -->
     </tr>
   </tbody>
 </table>
