@@ -22,6 +22,12 @@ The following projects are included as part of the DAV SDK:
 
 <span style="border-width:3px; border-style:solid; border-color:#d73027; padding: 0.25em;">[Scorecards](./scorecards.html)</span>&emsp;
 
+## Install
+
+<span style="border-width:3px; border-style:solid; border-color:#e0f3f8; padding: 0.25em;">[Frontier](./Install/frontier.html)</span>&emsp;
+<span style="border-width:3px; border-style:solid; border-color:#91bfdb; padding: 0.25em;">[Perlmutter](./Install/perlmutter.html)</span>&emsp;
+<span style="border-width:3px; border-style:solid; border-color:#4575b4; padding: 0.25em;">[Aurora](./Install/aurora.html)</span>
+
 ## Integration Status
 
 <span style="border-width:3px; border-style:solid; border-color:#d73027; padding: 0.25em;">[Spack](./spack.html)</span>&emsp;
